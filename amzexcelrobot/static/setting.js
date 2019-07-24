@@ -1,4 +1,4 @@
-exports.SETTING = {
+﻿exports.SETTING = {
   'templates': [
     {
       'name': 'vams0007-st6',

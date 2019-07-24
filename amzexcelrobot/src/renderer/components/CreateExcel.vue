@@ -22,8 +22,10 @@
     <div class="el-upload__tip" slot="tip">只能上传Excel文件</div>
 
   </el-upload>
-  <el-button style="margin-top:10px" type="primary" @click="previewExcel">预览库存模板文件</el-button>
-  <el-table :data="tableData" border class="mt10" style="width: 100%">
+  <el-button style="margin-top:10px" type="primary" @click="previewExcel">预览</el-button>
+  <el-button style="margin-top:10px" type="success" v-if="showDownload" @click="downloadExcel">生成库存模板文件</el-button>
+   <el-button style="margin-top:10px" v-if="showUpdateSKU" @click="updateSKU">更新SKU匹配(需联网)</el-button>
+  <el-table :data="tableData" height="500" border class="mt10" >
     <el-table-column width="250" prop="feed_product_type" label="feed_product_type"></el-table-column>
     <el-table-column width="250" prop="item_sku" label="item_sku"></el-table-column>
     <el-table-column width="250" prop="external_product_id_type" label="external_product_id_type"></el-table-column>
@@ -82,24 +84,35 @@
 </style>
 
 <script>
+import preview from '../assets/excelHelper.js'
+import fs from 'fs'
+import path from 'path'
 const {
   ipcRenderer
 } = require('electron')
-const SETTING = require('../assets/setting.js').SETTING
+
+const SETTING = JSON.parse(fs.readFileSync(path.join(__static, '/setting.txt'), 'utf8').toString())
+
 export default {
   data () {
     return {
       skuPrefix: '',
       tableData: [],
+      excelData: [],
       excelTemplates: [],
       tempname: '',
       filePath: '',
-      currentTemplate: null
+      currentTemplate: null,
+      templateContent: '',
+      showDownload: false,
+      showUpdateSKU: false
     }
   },
   methods: {
     handleSuccess (response, file, fileList) {
       this.filePath = file.raw.path
+      this.showDownload = false
+      this.showUpdateSKU = false
     },
     handleExceed () {
       this.$message('每次只能选择一个模板文件')
@@ -118,21 +131,43 @@ export default {
         return
       }
       let result = ipcRenderer.sendSync('previewExcelFile', this.filePath)
-      console.log(result)
       this.createTable(result)
+    },
+    downloadExcel () {
+      let result = ipcRenderer.sendSync('downloadExcelFile', this.filePath, this.excelData)
+      if (result === 'done') {
+        this.$message('已生成，请查看文件夹（带template字样）')
+        this.showUpdateSKU = true
+      } else {
+        this.$message(`生成失败：${result}`)
+      }
+      console.log(result)
+    },
+    updateSKU () {
+
     },
     changeTemp (val) {
       this.currentTemplate = this.excelTemplates.find(m => m.value === val)
+      this.templateContent = SETTING.templates.find(m => m.name === this.currentTemplate.label)
       this.skuPrefix = this.currentTemplate.skuPrefix
+    },
+    createTable (data) {
+      if (!data || !data.length) {
+        this.$message('导入文件里没有内容')
+        this.showDownload = false
+        return
+      }
+      let result = preview(this.skuPrefix, this.templateContent, data)
+      this.tableData = result.previewData
+      this.excelData = result.realData
+      this.showDownload = true
     }
   },
-  createTable (data) {
-    this.tableData = []
-  },
+
   mounted () {
     let that = this
     Object.getOwnPropertyNames(SETTING).forEach(function (key) {
-      SETTING[key].templates.map(item => {
+      SETTING[key].map(item => {
         that.excelTemplates.push({
           value: item.name,
           label: item.name,
