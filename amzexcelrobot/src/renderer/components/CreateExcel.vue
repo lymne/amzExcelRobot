@@ -7,11 +7,10 @@
       </el-option>
     </el-select>
   </div>
-  <div class="input-suffix"> <div class="label">sku前缀</div> 
+  <!-- <div class="input-suffix"> <div class="label">sku前缀</div> 
     <el-input placeholder="请输入sku前缀" v-model="skuPrefix">
     </el-input>
-
-  </div>
+  </div> -->
   <div class="label"></div> 
   <el-upload class="mt10 upload-excel" :limit=1 :on-exceed="handleExceed" action="https://jsonplaceholder.typicode.com/posts/" :on-success="handleSuccess" drag>
 
@@ -22,9 +21,9 @@
     <div class="el-upload__tip" slot="tip">只能上传Excel文件</div>
 
   </el-upload>
-  <el-button style="margin-top:10px" type="primary" @click="previewExcel">预览</el-button>
-  <el-button style="margin-top:10px" type="success" v-if="showDownload" @click="downloadExcel">生成库存模板文件</el-button>
-   <el-button style="margin-top:10px" v-if="showUpdateSKU" @click="updateSKU">更新SKU匹配(需联网)</el-button>
+  <el-button style="margin-top:10px" type="primary" @click="previewExcel">预览效果</el-button>
+  <el-button style="margin-top:10px" type="success" v-if="showDownload" @click="downloadExcel">生成template文件</el-button>
+ 
   <el-table :data="tableData" height="500" border class="mt10" >
     <el-table-column width="250" prop="feed_product_type" label="feed_product_type"></el-table-column>
     <el-table-column width="250" prop="item_sku" label="item_sku"></el-table-column>
@@ -122,10 +121,6 @@ export default {
         this.$message('请选择模板')
         return
       }
-      if (!this.skuPrefix) {
-        this.$message('请输入sku前缀')
-        return
-      }
       if (!this.filePath) {
         this.$message('请选择模板文件')
         return
@@ -136,7 +131,7 @@ export default {
     downloadExcel () {
       let result = ipcRenderer.sendSync('downloadExcelFile', this.filePath, this.excelData)
       if (result === 'done') {
-        this.$message('已生成，请查看文件夹（带template字样）')
+        this.$message('已生成，请查看上传文件时的文件夹（带template字样）')
         this.showUpdateSKU = true
       } else {
         this.$message(`生成失败：${result}`)

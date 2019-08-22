@@ -4,7 +4,7 @@
       <el-tab-pane label="库存文件生成">
         <CreateExcel />
       </el-tab-pane>
-      <el-tab-pane label="图片服务器管理">图片服务器管理</el-tab-pane>
+    
     </el-tabs>
   </div>
 </template>
@@ -24,16 +24,14 @@
 </script>
 
 <style>
-  @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
   * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
   
-  body {
-    font-family: 'Source Sans Pro', sans-serif;
-  }
+ 
   
   #wrapper {
     background: radial-gradient( ellipse at top left, rgba(255, 255, 255, 1) 40%, rgba(229, 229, 229, .9) 100%);
