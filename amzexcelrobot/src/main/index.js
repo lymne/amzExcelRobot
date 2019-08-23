@@ -2,6 +2,7 @@
 
 import { app, BrowserWindow, ipcMain } from 'electron'
 import dayjs from 'dayjs'
+import path from 'path'
 let Excel = require('exceljs')
 /**
  * Set `__static` path to static files in production
@@ -71,7 +72,7 @@ ipcMain.on('previewExcelFile', (event, path) => {
 ipcMain.on('downloadExcelFile', (event, filepath, data) => {
   try {
     let workbookHead = new Excel.Workbook()
-    workbookHead.xlsx.readFile('static/head.xlsx').then(function () {
+    workbookHead.xlsx.readFile(path.join(__static, '/head.xlsx')).then(function () {
       let worksheetHead = workbookHead.getWorksheet(1)
       let row1 = worksheetHead.getRow(1)
       let workbook = new Excel.Workbook()
