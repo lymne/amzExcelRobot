@@ -12,7 +12,7 @@
       'brand_name': 'ADVPRO',
       'manufacturer': 'ADVPRO',
       'parent_name': '{NAME_TEXT} Dual Color LED Neon Sign {SKU_TEXT}',
-      'variation_name': '{NAME_TEXT} Colorful LED Neon Sign {COLOR_TEXT} {SIZE_TEXT} {SKU_TEXT}',
+      'variation_name': '{NAME_TEXT} Dual LED Neon Sign {COLOR_TEXT} {SIZE_TEXT} {SKU_TEXT}',
       'variation_theme': 'SizeName-ColorName',
       'item_type': 'neon-signs',
       'size_text': {

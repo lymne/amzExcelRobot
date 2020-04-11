@@ -12,7 +12,7 @@
     </el-input>
   </div> -->
   <div class="label"></div> 
-  <el-upload class="mt10 upload-excel" :limit=1 :on-exceed="handleExceed" action="https://jsonplaceholder.typicode.com/posts/" :on-success="handleSuccess" drag>
+  <el-upload class="mt10 upload-excel" :limit=1 :on-exceed="handleExceed" action=""  :auto-upload="false" :on-change="handlePreview" drag>
 
     <i class="el-icon-upload"></i>
 
@@ -55,11 +55,7 @@
     <el-table-column width="250" prop="bullet_point3" label="bullet_point3"></el-table-column>
     <el-table-column width="250" prop="bullet_point4" label="bullet_point4"></el-table-column>
     <el-table-column width="250" prop="bullet_point5" label="bullet_point5"></el-table-column>
-    <el-table-column width="250" prop="generic_keywords1" label="generic_keywords1"></el-table-column>
-    <el-table-column width="250" prop="generic_keywords2" label="generic_keywords2"></el-table-column>
-    <el-table-column width="250" prop="generic_keywords3" label="generic_keywords3"></el-table-column>
-    <el-table-column width="250" prop="generic_keywords4" label="generic_keywords4"></el-table-column>
-    <el-table-column width="250" prop="generic_keywords5" label="generic_keywords5"></el-table-column>
+    <el-table-column width="250" prop="generic_keywords" label="generic_keywords"></el-table-column>
     <el-table-column width="250" prop="wattage_unit_of_measure" label="wattage_unit_of_measure"></el-table-column>
     <el-table-column width="250" prop="color_name" label="color_name"></el-table-column>
     <el-table-column width="250" prop="color_map" label="color_map"></el-table-column>
@@ -84,13 +80,11 @@
 
 <script>
 import preview from '../assets/excelHelper.js'
-import fs from 'fs'
-import path from 'path'
+import { Loading } from 'element-ui'
 const {
   ipcRenderer
 } = require('electron')
-
-const SETTING = JSON.parse(fs.readFileSync(path.join(__static, '/setting.txt'), 'utf8').toString())
+var request = require('request')
 
 export default {
   data () {
@@ -104,11 +98,13 @@ export default {
       currentTemplate: null,
       templateContent: '',
       showDownload: false,
-      showUpdateSKU: false
+      showUpdateSKU: false,
+      setting: ''
     }
   },
   methods: {
-    handleSuccess (response, file, fileList) {
+    handlePreview (file, fileList) {
+      console.log(file)
       this.filePath = file.raw.path
       this.showDownload = false
       this.showUpdateSKU = false
@@ -129,7 +125,7 @@ export default {
       this.createTable(result)
     },
     downloadExcel () {
-      let result = ipcRenderer.sendSync('downloadExcelFile', this.filePath, this.excelData)
+      let result = ipcRenderer.sendSync('downloadExcelFile', this.filePath, this.excelData, this.templateContent)
       if (result === 'done') {
         this.$message('已生成，请查看上传文件时的文件夹（带template字样）')
         this.showUpdateSKU = true
@@ -143,7 +139,7 @@ export default {
     },
     changeTemp (val) {
       this.currentTemplate = this.excelTemplates.find(m => m.value === val)
-      this.templateContent = SETTING.templates.find(m => m.name === this.currentTemplate.label)
+      this.templateContent = this.setting.templates.find(m => m.name === this.currentTemplate.label)
       this.skuPrefix = this.currentTemplate.skuPrefix
     },
     createTable (data) {
@@ -152,7 +148,7 @@ export default {
         this.showDownload = false
         return
       }
-      let result = preview(this.skuPrefix, this.templateContent, data)
+      let result = preview(this.templateContent, data)
       this.tableData = result.previewData
       this.excelData = result.realData
       this.showDownload = true
@@ -161,8 +157,13 @@ export default {
 
   mounted () {
     let that = this
-    Object.getOwnPropertyNames(SETTING).forEach(function (key) {
-      SETTING[key].map(item => {
+    let loadingInstance = Loading.service()
+    request('https://edmled.oss-us-east-1.aliyuncs.com/setting_vams.txt', function (error, response, body) {
+      console.log(error, response)
+      loadingInstance.close()
+      let setting = JSON.parse(response.body)
+      that.setting = setting
+      setting.templates.map(item => {
         that.excelTemplates.push({
           value: item.name,
           label: item.name,
