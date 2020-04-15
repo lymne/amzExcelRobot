@@ -7,10 +7,6 @@
       </el-option>
     </el-select>
   </div>
-  <!-- <div class="input-suffix"> <div class="label">sku前缀</div> 
-    <el-input placeholder="请输入sku前缀" v-model="skuPrefix">
-    </el-input>
-  </div> -->
   <div class="label"></div> 
   <el-upload class="mt10 upload-excel" :limit=1 :on-exceed="handleExceed" action=""  :auto-upload="false" :on-change="handlePreview" drag>
 
@@ -70,6 +66,9 @@
 <style>
 .mt10 {
   margin-top: 10px;
+}
+.upload-excel{
+  width: 600px;
 }
 .input-suffix {
   width: 300px;
