@@ -1,0 +1,689 @@
+{
+	"wpr": {
+		"requiredColumn": {
+			"us": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer",
+				"external_product_id_type", "item_type", "standard_price",
+				"quantity", "main_image_url", "other_image_url1", "other_image_url2",
+				"other_image_url3", "other_image_url4", "other_image_url5", "other_image_url6",
+				"other_image_url7", "other_image_url8", "parent_child", "parent_sku",
+				"relationship_type", "variation_theme", "product_description", "part_number",
+				"bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5",
+				"generic_keywords", "color_name", "color_map", "size_name", "material_type", "item_display_length",
+				"item_display_width", "item_display_height",
+				"display_dimensions_unit_of_measure", "merchant_shipping_group_name", "list_price", "condition_type", "fulfillment_latency"
+			],
+			"ca": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer",
+				"external_product_id_type",  "standard_price",
+				"quantity", "main_image_url", "other_image_url1", "other_image_url2",
+				"other_image_url3", "other_image_url4", "other_image_url5", "other_image_url6",
+				"other_image_url7", "other_image_url8", "parent_child", "parent_sku",
+				"relationship_type", "variation_theme", "product_description", "part_number",
+				"bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5",
+				"generic_keywords", "color_name", "color_map", "size_name", "material_type", "item_display_length",
+				"item_display_width", "item_display_height",
+				"display_dimensions_unit_of_measure", "merchant_shipping_group_name", "list_price", "condition_type", "fulfillment_latency"
+			],
+			"uk": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer",
+				"external_product_id_type",  "standard_price",
+				"quantity", "main_image_url", "other_image_url1", "other_image_url2",
+				"other_image_url3", "other_image_url4", "other_image_url5", "other_image_url6",
+				"other_image_url7", "other_image_url8", "parent_child", "parent_sku",
+				"relationship_type", "variation_theme", "product_description", "part_number",
+				"bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5",
+				"generic_keywords", "color_name", "color_map", "size_name", "material_type", "item_display_length",
+				"item_display_width", "item_display_height", "item_display_width_unit_of_measure", "item_display_height_unit_of_measure",
+				"item_display_length_unit_of_measure", "merchant_shipping_group_name", "list_price", "condition_type", "fulfillment_latency"
+			],
+			"de": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer",
+				"external_product_id_type", "standard_price",
+				"quantity", "main_image_url", "other_image_url1", "other_image_url2",
+				"other_image_url3", "other_image_url4", "other_image_url5", "other_image_url6",
+				"other_image_url7", "other_image_url8", "parent_child", "parent_sku",
+				"relationship_type", "variation_theme", "product_description", "part_number",
+				"bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5",
+				"generic_keywords", "color_name", "color_map", "size_name", "material_type", "item_display_length",
+				"item_display_width", "item_display_height",
+				"item_display_width_unit_of_measure", "item_display_height_unit_of_measure",
+				"item_display_length_unit_of_measure", "merchant_shipping_group_name", "uvp_list_price", "condition_type", "fulfillment_latency"
+			],
+			"fr": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer",
+				"external_product_id_type",  "standard_price",
+				"quantity", "main_image_url", "other_image_url1", "other_image_url2",
+				"other_image_url3", "other_image_url4", "other_image_url5", "other_image_url6",
+				"other_image_url7", "other_image_url8", "parent_child", "parent_sku",
+				"relationship_type", "variation_theme", "product_description", "part_number",
+				"bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5",
+				"generic_keywords", "color_name", "color_map", "size_name", "material_type", "item_display_length",
+				"item_display_width", "item_display_height",
+				"item_display_width_unit_of_measure", "item_display_height_unit_of_measure",
+				"item_display_length_unit_of_measure", "merchant_shipping_group_name", "list_price", "condition_type", "fulfillment_latency"
+			],
+			"it": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer",
+				"external_product_id_type",  "standard_price",
+				"quantity", "main_image_url", "other_image_url1", "other_image_url2",
+				"other_image_url3", "other_image_url4", "other_image_url5", "other_image_url6",
+				"other_image_url7", "other_image_url8", "parent_child", "parent_sku",
+				"relationship_type", "variation_theme", "product_description", "part_number",
+				"bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5",
+				"generic_keywords", "color_name", "color_map", "size_name", "material_type", "item_display_length",
+				"item_display_width", "item_display_height",
+				"item_display_width_unit_of_measure", "item_display_height_unit_of_measure",
+				"item_display_length_unit_of_measure", "merchant_shipping_group_name", "uvp_list_price", "condition_type", "fulfillment_latency"
+			],
+			"es": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer",
+				"external_product_id_type",  "standard_price",
+				"quantity", "main_image_url", "other_image_url1", "other_image_url2",
+				"other_image_url3", "other_image_url4", "other_image_url5", "other_image_url6",
+				"other_image_url7", "other_image_url8", "parent_child", "parent_sku",
+				"relationship_type", "variation_theme", "product_description", "part_number",
+				"bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5",
+				"generic_keywords", "color_name", "color_map", "size_name", "material_type", "item_display_length",
+				"item_display_width", "item_display_height",
+				"item_display_width_unit_of_measure", "item_display_height_unit_of_measure",
+				"item_display_length_unit_of_measure", "merchant_shipping_group_name", "uvp_list_price", "condition_type", "fulfillment_latency"
+			],
+			"jp": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer",
+				"external_product_id_type", "standard_price",
+				"quantity", "main_image_url", "other_image_url1", "other_image_url2",
+				"other_image_url3", "other_image_url4", "other_image_url5", "other_image_url6",
+				"other_image_url7", "other_image_url8", "parent_child", "parent_sku",
+				"relationship_type", "variation_theme", "product_description", "part_number",
+				"bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5",
+				"generic_keywords", "color_name", "color_map", "size_name", "material_type", "item_display_length",
+				"item_display_width", "item_display_height",
+				"item_display_width_unit_of_measure", "item_display_height_unit_of_measure",
+				"item_display_length_unit_of_measure", "merchant_shipping_group_name", "list_price", "condition_type", "fulfillment_latency"
+			]
+		},
+
+			"skuPrefix": {
+				"us": "ZV-GR",
+				"ca": "ZV-CA-GR",
+				"uk": "ZV-UK-GR",
+				"de": "ZV-DE-GR",
+				"fr": "ZV-FR-GR",
+				"it": "ZV-IT-GR",
+				"es": "ZV-ES-GR",
+				"jp": "Tan-wood-PR"
+			},
+			"parentSkuFormat": "{PARENT_NUM}-{MMDD}-{CHILD_NUM}",
+			"childSkuFormat": "{PARENT_NUM}-{MMDD}-{CHILD_NUM}",
+			"feed_product_type": {
+				"us": "home",
+				"ca": "home",
+				"uk": "home",
+				"de": "home",
+				"fr": "home",
+				"it": "home",
+				"es": "home",
+				"jp": "kitchen"
+			},
+			"skus": {
+				"st18s": ["st18s73", "st18s62", "st18s52", "st18s44", "st18s33", "st18s22"]
+			},
+			"brand_name": {
+				"us": "LoveinDIY",
+				"ca": "LoveinDIY",
+				"uk": "LoveinDIY",
+				"de": "LoveinDIY",
+				"fr": "LoveinDIY",
+				"it": "LoveinDIY",
+				"es": "LoveinDIY",
+				"jp": "Tanranear"
+			},
+			"manufacturer": {
+				"us": "LoveinDIY",
+				"ca": "LoveinDIY",
+				"uk": "LoveinDIY",
+				"de": "LoveinDIY",
+				"fr": "LoveinDIY",
+				"it": "LoveinDIY",
+				"es": "LoveinDIY",
+				"jp": "Tanranear"
+			},
+			"parent_name": {
+				"us": "{NAME_TEXT} 3D Solid Craving Sign Wooden Sign Wall Decoration",
+				"ca": "{NAME_TEXT} 3D Solid Craving Sign Wooden Sign Wall Decoration",
+				"uk": "{NAME_TEXT} 3D Solid Craving Sign Wooden Sign Wall Decoration",
+				"de": "{NAME_TEXT} 3D Solid Craving Sign Wooden Sign Wall Decoration",
+				"fr": "{NAME_TEXT} 3D Solid Craving Sign Wooden Sign Wall Decoration",
+				"it": "{NAME_TEXT} 3D Solid Craving Sign Wooden Sign Wall Decoration",
+				"es": "{NAME_TEXT} 3D Solid Craving Sign Wooden Sign Wall Decoration",
+				"jp": "{NAME_TEXT} 木製看板 サインボード ドアプレート 3D彫刻 広告用標識 玄関 部屋飾り 壁掛け"
+			},
+			"variation_name": {
+				"us": "{NAME_TEXT} 3D Solid Craving Sign Wooden Sign Wall Decoration {SIZE_TEXT}",
+				"ca": "{NAME_TEXT} 3D Solid Craving Sign Wooden Sign Wall Decoration {SIZE_TEXT}",
+				"uk": "{NAME_TEXT} 3D Solid Craving Sign Wooden Sign Wall Decoration {SIZE_TEXT}",
+				"de": "{NAME_TEXT} 3D Solid Craving Sign Wooden Sign Wall Decoration {SIZE_TEXT}",
+				"fr": "{NAME_TEXT} 3D Solid Craving Sign Wooden Sign Wall Decoration {SIZE_TEXT}",
+				"it": "{NAME_TEXT} 3D Solid Craving Sign Wooden Sign Wall Decoration {SIZE_TEXT}",
+				"es": "{NAME_TEXT} 3D Solid Craving Sign Wooden Sign Wall Decoration {SIZE_TEXT}",
+				"jp": "{NAME_TEXT} 木製看板 サインボード ドアプレート 3D彫刻 広告用標識 玄関 部屋飾り 壁掛け {SIZE_TEXT}"
+			},
+			"variation_theme": {
+				"us": "MaterialSize",
+				"ca": "MaterialSize",
+				"uk": "MaterialSize",
+				"de": "MaterialSize",
+				"fr": "MaterialSize",
+				"it": "MaterialSize",
+				"es": "MaterialSize",
+				"jp": "SizeName"
+			},
+			"item_type": {
+				"us": "decorative-signs",
+				"ca": "decorative-signs",
+				"uk": "decorative-signs",
+				"de": "decorative-signs",
+				"fr": "decorative-signs",
+				"it": "decorative-signs",
+				"es": "decorative-signs",
+				"jp": "decorative-signs"
+			},
+			"size_text": {
+				"st18s73": ["Large Rectangle", "横68cm x 縦27cm"],
+				"st18s62": ["Standard Rectangle", "横58cm x 縦23cm"],
+				"st18s52": ["Medium Rectangle", "横46cm x 縦18cm"],
+				"st18s44": ["Large Square", "横40cm x 縦40cm"],
+				"st18s33": ["Standard Square", "横30cm x 縦30cm"],
+				"st18s22": ["Medium Square", "横20cm x 縦20cm"]
+			},
+			"overallsize_text": {
+				"st18s73": ["Rectangle Large Size: 26.75\" x 10.75\" x 0.75\" (size 68cm x 27cm x 1.8cm)", "横68cm x 縦27cm"],
+				"st18s62": ["Rectangle Medium Size: 23\" x 9.25\" x 0.75\" (size 58cm x 23cm x 1.8cm)", "横58cm x 縦23cm"],
+				"st18s52": ["Rectangle Small Size: 18.25\" x 7.25\" x 0.75\" (size 46cm x 18cm x 1.8cm)", "横46cm x 縦18cm"],
+				"st18s44": ["Square Large Size: 16\" x 16\" x 0.75\" (size 40cm x 40cm x 1.8cm)", "横40cm x 縦40cm"],
+				"st18s33": ["Square Medium Size: 12\" x 12\" x 0.75\" (size 30cm x 30cm x 1.8cm)", "横30cm x 縦30cm"],
+				"st18s22": ["Square Small Size: 8\" x 8\" x 0.75\" (size 20cm x 20cm x 1.8cm)", "横20cm x 縦20cm"]
+			},
+			"size_name": {
+				"st18s73": ["26.75\" x 10.75\"（68cm x 27cm）", "横68cm x 縦27cm"],
+				"st18s62": ["23\" x 9.25\" (58cm x 23cm)", "横58cm x 縦23cm"],
+				"st18s52": ["18.25\" x 7.25\" (46cm x 18cm)", "横46cm x 縦18cm"],
+				"st18s44": ["16\" x 16\" (40cm x 40cm)", "横40cm x 縦40cm"],
+				"st18s33": ["12\" x 12\" (30cm x 30cm)", "横30cm x 縦30cm"],
+				"st18s22": ["8\" x 8\" (20cm x 20cm)", "横20cm x 縦20cm"]
+			},
+			"color_name": {
+				"us": "Pine Wooden",
+				"ca": "Pine Wooden",
+				"uk": "Pine Wooden",
+				"de": "Pine Wooden",
+				"fr": "Pine Wooden",
+				"it": "Pine Wooden",
+				"es": "Pine Wooden",
+				"jp": ""
+			},
+			"color_map": {
+				"us": "Brown Color",
+				"ca": "Brown Color",
+				"uk": "Brown Color",
+				"de": "Brown Color",
+				"fr": "Brown Color",
+				"it": "Brown Color",
+				"es": "Brown Color",
+				"jp": "木製"
+			},
+			"material_type": {
+				"us": "Pine",
+				"ca": "Pine",
+				"uk": "Pine",
+				"de": "Pine",
+				"fr": "Pine",
+				"it": "Pine",
+				"es": "Pine",
+				"jp": "木製"
+			},
+			"standard_price": {
+				"us": {
+					"st18s73": 78,
+					"st18s62": 58,
+					"st18s52": 43,
+					"st18s44": 63,
+					"st18s33": 48,
+					"st18s22": 38
+				},
+				"ca": {
+					"st18s73": 111,
+					"st18s62": 82,
+					"st18s52": 61,
+					"st18s44": 89,
+					"st18s33": 68,
+					"st18s22": 53
+				},
+				"uk": {
+					"st18s73": 63,
+					"st18s62": 47,
+					"st18s52": 35,
+					"st18s44": 51,
+					"st18s33": 39,
+					"st18s22": 31
+				},
+				"de": {
+					"st18s73": 73,
+					"st18s62": 54,
+					"st18s52": 39,
+					"st18s44": 60,
+					"st18s33": 37,
+					"st18s22": 35
+				},
+				"fr": {
+					"st18s73": 73,
+					"st18s62": 54,
+					"st18s52": 39,
+					"st18s44": 60,
+					"st18s33": 37,
+					"st18s22": 35
+				},
+				"it": {
+					"st18s73": 73,
+					"st18s62": 54,
+					"st18s52": 39,
+					"st18s44": 60,
+					"st18s33": 37,
+					"st18s22": 35
+				},
+				"es": {
+					"st18s73": 7,
+					"st18s62": 54,
+					"st18s52": 39,
+					"st18s44": 60,
+					"st18s33": 37,
+					"st18s22": 35
+				},
+				"jp": {
+					"st18s73": 8399,
+					"st18s62": 6199,
+					"st18s52": 4599,
+					"st18s44": 6699,
+					"st18s33": 5099,
+					"st18s22": 3999
+				}
+			},
+			"quantity": {
+				"st18s73": 20,
+				"st18s62": 20,
+				"st18s52": 20,
+				"st18s44": 20,
+				"st18s33": 20,
+				"st18s22": 20
+			},
+			"merchant_shipping_group_name": {
+				"us": {
+					"st18s73": "shipping cost 22",
+					"st18s62": "shipping cost 17",
+					"st18s52": "shipping cost 17",
+					"st18s44": "shipping cost 17",
+					"st18s33": "shipping cost 17",
+					"st18s22": "shipping cost 17"
+				},
+				"ca": {
+					"st18s73": "shipping cost 28",
+					"st18s62": "shipping cost 22",
+					"st18s52": "shipping cost 22",
+					"st18s44": "shipping cost 22",
+					"st18s33": "shipping cost 22",
+					"st18s22": "shipping cost 22"
+				},
+				"uk": {
+					"st18s73": "shipping cost 18",
+					"st18s62": "shipping cost 14",
+					"st18s52": "shipping cost 14",
+					"st18s44": "shipping cost 14",
+					"st18s33": "shipping cost 14",
+					"st18s22": "shipping cost 14"
+				},
+				"de": {
+					"st18s73": "shipping cost 20",
+					"st18s62": "shipping cost 16",
+					"st18s52": "shipping cost 16",
+					"st18s44": "shipping cost 16",
+					"st18s33": "shipping cost 16",
+					"st18s22": "shipping cost 16"
+				},
+				"fr": {
+					"st18s73": "shipping cost 20",
+					"st18s62": "shipping cost 16",
+					"st18s52": "shipping cost 16",
+					"st18s44": "shipping cost 16",
+					"st18s33": "shipping cost 16",
+					"st18s22": "shipping cost 16"
+				},
+				"it": {
+					"st18s73": "shipping cost 20",
+					"st18s62": "shipping cost 16",
+					"st18s52": "shipping cost 16",
+					"st18s44": "shipping cost 16",
+					"st18s33": "shipping cost 16",
+					"st18s22": "shipping cost 16"
+				},
+				"es": {
+					"st18s73": "shipping cost 20",
+					"st18s62": "shipping cost 16",
+					"st18s52": "shipping cost 16",
+					"st18s44": "shipping cost 16",
+					"st18s33": "shipping cost 16",
+					"st18s22": "shipping cost 16"
+				},
+				"jp": {
+					"st18s73": "Shipping Cost 2400",
+					"st18s62": "Shipping Cost 1900",
+					"st18s52": "Shipping Cost 1900",
+					"st18s44": "Shipping Cost 1900",
+					"st18s33": "Shipping Cost 1900",
+					"st18s22": "Shipping Cost 1900"
+				}
+			},
+			"product_description": ["Are you looking at a personalized wood sign?This is A 3D engraved wooden decoration craved with a solid pine wood and finished with a sealer. Suitable for indoor decoration in your room, bar, club, cabin,  etc. A a wonderful gift for your dearest!  Please message us if you have any questions. Thank you!", "この製品はヴィンテージスタイルのトップクラスの木材で作られ、3D彫刻した美しい看板です。カジュアルな雰囲気のこのような古典的なプラークは、あなたの家やショップにとって完璧な壁＆ドアのインテリアになります。 "],
+			"imageDomain": "http://jpg.woowcloud.com",
+			"main_image_url": {
+				"st18s73": "{domain}/wp/wpr/wpr-{CHAR}{SKU}a.JPG",
+				"st18s62": "{domain}/wp/wpr/wpr-{CHAR}{SKU}b.JPG",
+				"st18s52": "{domain}/wp/wpr/wpr-{CHAR}{SKU}c.JPG",
+				"st18s44": "{domain}/wp/wpr/s22-Render/s22-wpr-{CHAR}{SKU}.JPG",
+				"st18s33": "{domain}/wp/wpr/s22-Render/s22-wpr-{CHAR}{SKU}.JPG",
+				"st18s22": "{domain}/wp/wpr/s22-Render/s22-wpr-{CHAR}{SKU}.JPG"
+			},
+			"other_image_urls": {
+				"st18s73": ["{domain}/wp/wpr/wpr-{CHAR}{SKU}b.JPG", "{domain}/wp/wpr/wpr-{CHAR}{SKU}c.JPG", "{domain}/wp/wpr/wpr-{CHAR}{SKU}d.JPG", "{domain}/wp/wpr/wpr-{CHAR}{SKU}e.JPG", "{domain}/wp/wpr/wpr-{CHAR}{SKU}f.JPG", "{domain}/wp/wpr/wpr-{CHAR}{SKU}e.JPG", "http://jpg.woowcloud.com/wp/wpr/s22-Render/ad2.JPG", "http://jpg.woowcloud.com/wp/wpr/s22-Render/ad3.JPG", "http://jpg.woowcloud.com/wp/wpr/s22-Render/ad4.JPG"],
+				"st18s62": ["{domain}/wp/wpr/wpr-{CHAR}{SKU}a.JPG", "{domain}/wp/wpr/wpr-{CHAR}{SKU}c.JPG", "{domain}/wp/wpr/wpr-{CHAR}{SKU}d.JPG", "{domain}/wp/wpr/wpr-{CHAR}{SKU}e.JPG", "{domain}/wp/wpr/wpr-{CHAR}{SKU}f.JPG", "{domain}/wp/wpr/wpr-{CHAR}{SKU}e.JPG", "http://jpg.woowcloud.com/wp/wpr/s22-Render/ad2.JPG", "http://jpg.woowcloud.com/wp/wpr/s22-Render/ad3.JPG", "http://jpg.woowcloud.com/wp/wpr/s22-Render/ad4.JPG"],
+				"st18s52": ["{domain}/wp/wpr/wpr-{CHAR}{SKU}a.JPG", "{domain}/wp/wpr/wpr-{CHAR}{SKU}b.JPG", "{domain}/wp/wpr/wpr-{CHAR}{SKU}d.JPG", "{domain}/wp/wpr/wpr-{CHAR}{SKU}e.JPG", "{domain}/wp/wpr/wpr-{CHAR}{SKU}f.JPG", "{domain}/wp/wpr/wpr-{CHAR}{SKU}e.JPG", "http://jpg.woowcloud.com/wp/wpr/s22-Render/ad2.JPG", "http://jpg.woowcloud.com/wp/wpr/s22-Render/ad3.JPG", "http://jpg.woowcloud.com/wp/wpr/s22-Render/ad4.JPG"],
+				"st18s44": ["http://jpg.woowcloud.com/wp/wpr/s22-Render/ad1.JPG", "http://jpg.woowcloud.com/wp/wpr/s22-Render/ad2.JPG", "http://jpg.woowcloud.com/wp/wpr/s22-Render/ad3.JPG", "http://jpg.woowcloud.com/wp/wpr/s22-Render/ad4.JPG"],
+				"st18s33": ["http://jpg.woowcloud.com/wp/wpr/s22-Render/ad1.JPG", "http://jpg.woowcloud.com/wp/wpr/s22-Render/ad2.JPG", "http://jpg.woowcloud.com/wp/wpr/s22-Render/ad3.JPG", "http://jpg.woowcloud.com/wp/wpr/s22-Render/ad4.JPG"],
+				"st18s22": ["http://jpg.woowcloud.com/wp/wpr/s22-Render/ad1.JPG", "http://jpg.woowcloud.com/wp/wpr/s22-Render/ad2.JPG", "http://jpg.woowcloud.com/wp/wpr/s22-Render/ad3.JPG", "http://jpg.woowcloud.com/wp/wpr/s22-Render/ad4.JPG"]
+			},
+			"bullet_points": {
+				"bullet_point1": ["Carving wooden sign. {overallsize_text}", "本製品は3D彫刻した木製のサインボードです。"],
+				"bullet_point2": ["A wonderful  gift for your dearest!", "広告用看板、飾り品、バー、クラブ及びゲーム場所等には最適です。"],
+				"bullet_point3": ["Installation method: Each sign includes a sawtooth hanger on the back for quick and easy hanging", "取り付け方：看板の後ろにスロットがあります、フックで壁に掛かって飾れます。"],
+				"bullet_point4": ["Craved by solid pine wood and finished with sealer", "サイズ：{overallsize_text}　彫刻された文字またはパターンは2色塗り分けております。"],
+				"bullet_point5": ["Stain with 2 colors on the 3D letters and images", "配送：製造作業には3-7営業日がかかります(休日を除きます)。China post経由で出荷し、配送には7-14営業日かかります（製造作業時間は含まれていません）。"]
+			},
+			"generic_keywords": ["Wooden Engraved Sign Wall Decoration", "木製看板 サインボード ドアプレート 広告用標識"],
+			"platinum_keywords1": "",
+			"platinum_keywords2": "",
+			"platinum_keywords3": "",
+			"platinum_keywords4": "",
+			"platinum_keywords5": "",
+			"fulfillment_latency": {
+				"us": 5,
+				"ca": 5,
+				"uk": 7,
+				"de": 5,
+				"fr": 5,
+				"it": 5,
+				"es": 5,
+				"jp": 10
+			},
+			"list_price": {
+				"us": {
+					"st18s73": 98,
+					"st18s62": 78,
+					"st18s52": 63,
+					"st18s44": 83,
+					"st18s33": 68,
+					"st18s22": 58
+				},
+				"ca": {
+					"st18s73": 13,
+					"st18s62": 10,
+					"st18s52": 81,
+					"st18s44": 10,
+					"st18s33": 88,
+					"st18s22": 73
+				},
+				"uk": {
+					"st18s73": 83,
+					"st18s62": 67,
+					"st18s52": 55,
+					"st18s44": 71,
+					"st18s33": 59,
+					"st18s22": 51
+				},
+				"de": {
+					"st18s73": 93,
+					"st18s62": 74,
+					"st18s52": 59,
+					"st18s44": 80,
+					"st18s33": 57,
+					"st18s22": 55
+				},
+				"fr": {
+					"st18s73": 93,
+					"st18s62": 74,
+					"st18s52": 59,
+					"st18s44": 80,
+					"st18s33": 57,
+					"st18s22": 55
+				},
+				"it": {
+					"st18s73": 93,
+					"st18s62": 74,
+					"st18s52": 59,
+					"st18s44": 80,
+					"st18s33": 57,
+					"st18s22": 55
+				},
+				"es": {
+					"st18s73": 93,
+					"st18s62": 74,
+					"st18s52": 59,
+					"st18s44": 80,
+					"st18s33": 57,
+					"st18s22": 55
+				},
+				"jp": {
+					"st18s73": 1039,
+					"st18s62": 8199,
+					"st18s52": 6599,
+					"st18s44": 8699,
+					"st18s33": 6099,
+					"st18s22": 4999
+				}
+			},
+			"item_display_length": {
+				"us": {
+					"st18s73": 10.75,
+					"st18s62": 9.25,
+					"st18s52": 7.25,
+					"st18s44": 16,
+					"st18s33": 12,
+					"st18s22": 8
+				},
+				"ca": {
+					"st18s73": 10.75,
+					"st18s62": 9.25,
+					"st18s52": 7.25,
+					"st18s44": 16,
+					"st18s33": 12,
+					"st18s22": 8
+				},
+				"uk": {
+					"st18s73": 27,
+					"st18s62": 23,
+					"st18s52": 18,
+					"st18s44": 40,
+					"st18s33": 30,
+					"st18s22": 20
+				},
+				"de": {
+					"st18s73": 27,
+					"st18s62": 23,
+					"st18s52": 18,
+					"st18s44": 40,
+					"st18s33": 30,
+					"st18s22": 20
+				},
+				"fr": {
+					"st18s73": 27,
+					"st18s62": 23,
+					"st18s52": 18,
+					"st18s44": 40,
+					"st18s33": 30,
+					"st18s22": 20
+				},
+				"it": {
+					"st18s73": 27,
+					"st18s62": 23,
+					"st18s52": 18,
+					"st18s44": 40,
+					"st18s33": 30,
+					"st18s22": 20
+				},
+				"es": {
+					"st18s73": 27,
+					"st18s62": 23,
+					"st18s52": 18,
+					"st18s44": 40,
+					"st18s33": 30,
+					"st18s22": 20
+				},
+				"jp": {
+					"st18s73": 27,
+					"st18s62": 23,
+					"st18s52": 18,
+					"st18s44": 40,
+					"st18s33": 30,
+					"st18s22": 20
+				}
+			},
+			"item_display_width": {
+				"us": {
+					"st18s73": 26.75,
+					"st18s62": 23,
+					"st18s52": 18.25,
+					"st18s44": 16,
+					"st18s33": 12,
+					"st18s22": 8
+				},
+				"ca": {
+					"st18s73": 26.75,
+					"st18s62": 23,
+					"st18s52": 18.25,
+					"st18s44": 16,
+					"st18s33": 12,
+					"st18s22": 8
+				},
+				"uk": {
+					"st18s73": 68,
+					"st18s62": 58,
+					"st18s52": 46,
+					"st18s44": 40,
+					"st18s33": 30,
+					"st18s22": 20
+				},
+				"de": {
+					"st18s73": 68,
+					"st18s62": 58,
+					"st18s52": 46,
+					"st18s44": 40,
+					"st18s33": 30,
+					"st18s22": 20
+				},
+				"fr": {
+					"st18s73": 68,
+					"st18s62": 58,
+					"st18s52": 46,
+					"st18s44": 40,
+					"st18s33": 30,
+					"st18s22": 20
+				},
+				"it": {
+					"st18s73": 68,
+					"st18s62": 58,
+					"st18s52": 46,
+					"st18s44": 40,
+					"st18s33": 30,
+					"st18s22": 20
+				},
+				"es": {
+					"st18s73": 68,
+					"st18s62": 58,
+					"st18s52": 46,
+					"st18s44": 40,
+					"st18s33": 30,
+					"st18s22": 20
+				},
+				"jp": {
+					"st18s73": 68,
+					"st18s62": 58,
+					"st18s52": 46,
+					"st18s44": 40,
+					"st18s33": 30,
+					"st18s22": 20
+				}
+			},
+			"item_display_height": {
+				"us": {
+					"st18s73": 0.75,
+					"st18s62": 0.75,
+					"st18s52": 0.75,
+					"st18s44": 0.75,
+					"st18s33": 0.75,
+					"st18s22": 0.75
+				},
+				"ca": {
+					"st18s73": 0.75,
+					"st18s62": 0.75,
+					"st18s52": 0.75,
+					"st18s44": 0.75,
+					"st18s33": 0.75,
+					"st18s22": 0.75
+				},
+				"uk": {
+					"st18s73": 2,
+					"st18s62": 2,
+					"st18s52": 2,
+					"st18s44": 2,
+					"st18s33": 2,
+					"st18s22": 2
+				},
+				"de": {
+					"st18s73": 2,
+					"st18s62": 2,
+					"st18s52": 2,
+					"st18s44": 2,
+					"st18s33": 2,
+					"st18s22": 2
+				},
+				"fr": {
+					"st18s73": 2,
+					"st18s62": 2,
+					"st18s52": 2,
+					"st18s44": 2,
+					"st18s33": 2,
+					"st18s22": 2
+				},
+				"it": {
+					"st18s73": 2,
+					"st18s62": 2,
+					"st18s52": 2,
+					"st18s44": 2,
+					"st18s33": 2,
+					"st18s22": 2
+				},
+				"es": {
+					"st18s73": 2,
+					"st18s62": 2,
+					"st18s52": 2,
+					"st18s44": 2,
+					"st18s33": 2,
+					"st18s22": 2
+				},
+				"jp": {
+					"st18s73": 2,
+					"st18s62": 2,
+					"st18s52": 2,
+					"st18s44": 2,
+					"st18s33": 2,
+					"st18s22": 2
+				}
+			},
+			"display_dimensions_unit_of_measure": "IN",
+			"item_display_length_unit_of_measure": "CM",
+			"item_display_width_unit_of_measure": "CM",
+			"item_display_height_unit_of_measure": "CM"
+		}
+	
+}

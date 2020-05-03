@@ -1,104 +1,82 @@
 <template>
-<div>
+  <div class="panel">
+    <div class="input-suffix">
+      <el-divider>账户</el-divider>
 
-  <div class="input-suffix"> <div class="label">账户模板</div> 
-    <el-select v-model="tempname" placeholder="请选择账户模板" @change="changeTemp">
-      <el-option v-for="item in excelTemplates" :key="item.value" :label="item.label" :value="item.value">
-      </el-option>
-    </el-select>
+      <el-select v-model="tempname" placeholder="请选择账户" @change="changeTemp">
+        <el-option
+          v-for="item in accounts"
+          :key="item.value"
+          :label="item.label"
+          :value="item.value"
+        ></el-option>
+      </el-select>
+    </div>
+
+    <div class="label" v-if="currentAccount">
+      <el-divider>品类</el-divider>
+      <el-checkbox-group v-model="checkedTypes">
+        <el-checkbox v-for="style in types" border :label="style" :key="style">{{style}}</el-checkbox>
+      </el-checkbox-group>
+    </div>
+    <div class="label" v-if="currentAccount">
+      <el-divider>站点</el-divider>
+      <el-checkbox-group v-model="checkedSites" @change="handleCheckedSitesChange">
+        <el-checkbox v-for="site in sites" :label="site" :key="site">{{site}}</el-checkbox>
+      </el-checkbox-group>
+      <el-checkbox
+        :indeterminate="isIndeterminate"
+        v-model="checkAll"
+        @change="handleCheckAllChange"
+      >全选</el-checkbox>
+    </div>
+    <el-divider>上传产品</el-divider>
+
+    <el-upload
+      class="mt10 upload-excel"
+      :limit="1"
+      :on-exceed="handleExceed"
+      action
+      :auto-upload="false"
+      :on-change="handlePreview"
+      drag
+    >
+      <i class="el-icon-upload"></i>
+      <div class="el-upload__text">
+        将待上架产品的Excel文件拖到此处，或
+        <em>点击上传</em>
+      </div>
+      <div class="el-upload__tip" slot="tip">只能上传Excel文件</div>
+    </el-upload>
+    <el-button style="margin-top:10px" type="success" @click="downloadExcel">生成template</el-button>
   </div>
-  <div class="label"></div> 
-  <el-upload class="mt10 upload-excel" :limit=1 :on-exceed="handleExceed" action=""  :auto-upload="false" :on-change="handlePreview" drag>
-
-    <i class="el-icon-upload"></i>
-
-    <div class="el-upload__text">将待上架产品的Excel文件拖到此处，或<em>点击上传</em></div>
-
-    <div class="el-upload__tip" slot="tip">只能上传Excel文件</div>
-
-  </el-upload>
-  <el-button style="margin-top:10px" type="primary" @click="previewExcel">预览效果</el-button>
-  <el-button style="margin-top:10px" type="success" v-if="showDownload" @click="downloadExcel">生成template文件</el-button>
- 
-  <el-table :data="tableData" height="500" border class="mt10" >
-    <el-table-column width="250" prop="feed_product_type" label="feed_product_type"></el-table-column>
-    <el-table-column width="250" prop="item_sku" label="item_sku"></el-table-column>
-    <el-table-column width="250" prop="external_product_id_type" label="external_product_id_type"></el-table-column>
-    <el-table-column width="250" prop="brand_name" label="brand_name"></el-table-column>
-    <el-table-column width="250" prop="item_name" label="item_name"></el-table-column>
-    <el-table-column width="250" prop="manufacturer" label="manufacturer"></el-table-column>
-    <el-table-column width="250" prop="part_number" label="part_number"></el-table-column>
-    <el-table-column width="250" prop="standard_price" label="standard_price"></el-table-column>
-    <el-table-column width="250" prop="quantity" label="quantity"></el-table-column>
-    <el-table-column width="250" prop="merchant_shipping_group_name" label="merchant_shipping_group_name"></el-table-column>
-    <el-table-column width="250" prop="main_image_url" label="main_image_url"></el-table-column>
-    <el-table-column width="250" prop="other_image_url1" label="other_image_url1"></el-table-column>
-    <el-table-column width="250" prop="other_image_url2" label="other_image_url2"></el-table-column>
-    <el-table-column width="250" prop="other_image_url3" label="other_image_url3"></el-table-column>
-    <el-table-column width="250" prop="other_image_url4" label="other_image_url4"></el-table-column>
-    <el-table-column width="250" prop="other_image_url5" label="other_image_url5"></el-table-column>
-    <el-table-column width="250" prop="other_image_url6" label="other_image_url6"></el-table-column>
-    <el-table-column width="250" prop="other_image_url7" label="other_image_url7"></el-table-column>
-    <el-table-column width="250" prop="other_image_url8" label="other_image_url8"></el-table-column>
-    <el-table-column width="250" prop="parent_child" label="parent_child"></el-table-column>
-    <el-table-column width="250" prop="parent_sku" label="parent_sku"></el-table-column>
-    <el-table-column width="250" prop="relationship_type" label="relationship_type"></el-table-column>
-    <el-table-column width="250" prop="variation_theme" label="variation_theme"></el-table-column>
-    <el-table-column width="250" prop="product_description" label="product_description"></el-table-column>
-    <el-table-column width="250" prop="item_type" label="item_type"></el-table-column>
-    <el-table-column width="250" prop="bullet_point1" label="bullet_point1"></el-table-column>
-    <el-table-column width="250" prop="bullet_point2" label="bullet_point2"></el-table-column>
-    <el-table-column width="250" prop="bullet_point3" label="bullet_point3"></el-table-column>
-    <el-table-column width="250" prop="bullet_point4" label="bullet_point4"></el-table-column>
-    <el-table-column width="250" prop="bullet_point5" label="bullet_point5"></el-table-column>
-    <el-table-column width="250" prop="generic_keywords" label="generic_keywords"></el-table-column>
-    <el-table-column width="250" prop="wattage_unit_of_measure" label="wattage_unit_of_measure"></el-table-column>
-    <el-table-column width="250" prop="color_name" label="color_name"></el-table-column>
-    <el-table-column width="250" prop="color_map" label="color_map"></el-table-column>
-    <el-table-column width="250" prop="material_type" label="material_type"></el-table-column>
-    <el-table-column width="250" prop="size_name" label="size_name"></el-table-column>
-    <el-table-column width="250" prop="wattage" label="wattage"></el-table-column>
-    <el-table-column width="250" prop="fulfillment_latency" label="fulfillment_latency"></el-table-column>
-  </el-table>
-</div>
 </template>
 
-<style>
-.mt10 {
-  margin-top: 10px;
-}
-.upload-excel{
-  width: 600px;
-}
-.input-suffix {
-  width: 300px;
-  display: inline-block;
-}
-
-</style>
 
 <script>
 import preview from '../assets/excelHelper.js'
 import { Loading } from 'element-ui'
-const {
-  ipcRenderer
-} = require('electron')
-var request = require('request')
+const { ipcRenderer } = require('electron')
+const request = require('request')
 
 export default {
   data () {
     return {
-      skuPrefix: '',
-      tableData: [],
-      excelData: [],
       excelTemplates: [],
       tempname: '',
       filePath: '',
-      currentTemplate: null,
+      currentAccount: null,
       templateContent: '',
       showDownload: false,
-      showUpdateSKU: false,
-      setting: ''
+      setting: '',
+      checkAll: false,
+      accounts: [],
+      checkedTypes: [],
+      checkedSites: [],
+      types: [],
+      sites: [],
+      isIndeterminate: true,
+      isCreating: false
     }
   },
   methods: {
@@ -106,40 +84,106 @@ export default {
       console.log(file)
       this.filePath = file.raw.path
       this.showDownload = false
-      this.showUpdateSKU = false
+    },
+    handleCheckAllChange (val) {
+      this.checkedSites = val ? this.sites : []
+      this.isIndeterminate = false
+    },
+    handleCheckedSitesChange (value) {
+      let checkedCount = value.length
+      this.checkAll = checkedCount === this.sites.length
+      this.isIndeterminate =
+        checkedCount > 0 && checkedCount < this.sites.length
     },
     handleExceed () {
       this.$message('每次只能选择一个模板文件')
     },
-    previewExcel () {
+    // previewExcel () {
+    //   if (!this.tempname) {
+    //     this.$message('请选择模板')
+    //     return
+    //   }
+    //   if (!this.filePath) {
+    //     this.$message('请选择模板文件')
+    //     return
+    //   }
+    //   let result = ipcRenderer.sendSync('previewExcelFile', this.filePath)
+    //   this.createTable(result)
+    // },
+    async downloadExcel () {
       if (!this.tempname) {
-        this.$message('请选择模板')
+        this.$message('请选择账户')
+        return
+      }
+      if (!this.checkedTypes.length) {
+        this.$message('请选择品类')
+        return
+      }
+      if (!this.checkedSites.length) {
+        this.$message('请选择站点')
         return
       }
       if (!this.filePath) {
-        this.$message('请选择模板文件')
+        this.$message('请上传产品文件')
         return
       }
-      let result = ipcRenderer.sendSync('previewExcelFile', this.filePath)
-      this.createTable(result)
-    },
-    downloadExcel () {
-      let result = ipcRenderer.sendSync('downloadExcelFile', this.filePath, this.excelData, this.templateContent)
+      this.isCreating = true
+      // let result = ipcRenderer.sendSync('previewExcelFile', this.filePath)
+      // this.createTable(result)
+      await this.downloadTemplateSetting()
+      let templateUrls = []
+      this.checkedTypes.map(item => {
+        templateUrls.push(
+          {
+            account: this.currentAccount.value,
+            type: item
+          }
+        )
+      })
+      // let result = ipcRenderer.sendSync('downloadExcelHeaders', templateUrls)
+      // console.log(, result)
+
+      // let previewdata = preview(this.templateContent, data)
+      let result = ipcRenderer.sendSync(
+        'downloadExcelFile2',
+        this.filePath,
+        this.setting,
+        this.checkedSites,
+        templateUrls
+      )
+      // let result = ipcRenderer.sendSync(
+      //   'downloadExcelFile',
+      //   this.filePath,
+      //   this.templateContent
+      // )
       if (result === 'done') {
-        this.$message('已生成，请查看上传文件时的文件夹（带template字样）')
-        this.showUpdateSKU = true
+        this.$message('已生成，请查看上传文件时的文件夹')
       } else {
         this.$message(`生成失败：${result}`)
       }
-      console.log(result)
     },
-    updateSKU () {
-
+    async downloadTemplateSetting () {
+      let that = this
+      return new Promise((resolve, reject) => {
+        let url = `https://excelrobot.oss-cn-shenzhen.aliyuncs.com/${that.currentAccount.value}.txt`
+        request(
+          url,
+          function (error, response, body) {
+            console.log(error, response)
+            that.setting = JSON.parse(response.body)
+            resolve(that.setting)
+          }
+        )
+      })
     },
     changeTemp (val) {
-      this.currentTemplate = this.excelTemplates.find(m => m.value === val)
-      this.templateContent = this.setting.templates.find(m => m.name === this.currentTemplate.label)
-      this.skuPrefix = this.currentTemplate.skuPrefix
+      this.currentAccount = this.accounts.find(m => m.value === val)
+      //  this.templateContent = this.setting.templates.find(m => m.name === this.currentTemplate.label)
+      this.types = this.currentAccount.types
+      this.sites = this.currentAccount.sites
+      this.checkAll = false
+      this.checkedTypes = []
+      this.checkedSites = []
     },
     createTable (data) {
       if (!data || !data.length) {
@@ -157,19 +201,45 @@ export default {
   mounted () {
     let that = this
     let loadingInstance = Loading.service()
-    request('https://edmled.oss-us-east-1.aliyuncs.com/setting_vams.txt', function (error, response, body) {
-      console.log(error, response)
-      loadingInstance.close()
-      let setting = JSON.parse(response.body)
-      that.setting = setting
-      setting.templates.map(item => {
-        that.excelTemplates.push({
-          value: item.name,
-          label: item.name,
-          skuPrefix: item.skuPrefix
+    request(
+      'https://excelrobot.oss-cn-shenzhen.aliyuncs.com/setting_v2',
+      function (error, response, body) {
+        console.log(error, response)
+        loadingInstance.close()
+        let setting = JSON.parse(response.body)
+        console.log(setting)
+        that.setting = setting
+        setting.account.map(item => {
+          that.accounts.push({
+            value: item,
+            label: item,
+            types: setting.template[item].type,
+            sites: setting.template[item].site
+          })
         })
-      })
-    })
+      }
+    )
   }
 }
 </script>
+
+<style>
+.panel {
+  text-align: center;
+}
+.label {
+  margin: 10px;
+}
+.mt10 {
+  margin-top: 10px;
+}
+.upload-excel {
+  width: 600px;
+  text-align: center;
+  margin: auto;
+}
+.input-suffix {
+  width: 300px;
+  display: inline-block;
+}
+</style>

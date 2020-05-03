@@ -1,0 +1,17 @@
+{
+   "account":["vams0028","vams0031","vams0033"],
+   "template":{
+       "vams0031":{
+            "site":["de","fr","it","es","uk","jp","us","ca"],
+            "type":["st3","st6","wpr"]
+       },
+       "vams0033":{
+            "site":["de","fr","it","es","uk","jp","us","ca"],
+            "type":["st3","st6","wpr"]
+       },
+       "vams0028":{
+            "site":["de","fr","it","es","uk","jp","us","ca"],
+            "type":["wpr"]
+       }
+   }
+}
