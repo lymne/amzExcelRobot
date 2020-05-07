@@ -42,7 +42,6 @@
         }
       ]
     },
-   
     "mac": {
       "icon": "build/icons/icon.icns"
     },
@@ -53,8 +52,6 @@
       "icon": "build/icons"
     }
   },
-
- 
   "dependencies": {
     "axios": "^0.19.2",
     "dayjs": "^1.8.15",
@@ -85,6 +82,7 @@
     "copy-webpack-plugin": "^4.5.1",
     "cross-env": "^5.1.6",
     "css-loader": "^0.28.11",
+    "cz-conventional-changelog": "^3.2.0",
     "cz-customizable": "^6.2.0",
     "del": "^3.0.0",
     "devtron": "^1.4.0",
@@ -123,12 +121,12 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-customizable"
-    },
-    "husky": {
-      "hooks": {
-        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-      }
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }
 }
