@@ -42,11 +42,7 @@
         }
       ]
     },
-    "husky": {
-      "hooks": {
-        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-      }
-    },
+   
     "mac": {
       "icon": "build/icons/icon.icns"
     },
@@ -55,6 +51,12 @@
     },
     "linux": {
       "icon": "build/icons"
+    }
+  },
+
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "dependencies": {
@@ -82,10 +84,12 @@
     "babili-webpack-plugin": "^0.1.2",
     "cfonts": "^2.1.2",
     "chalk": "^2.4.1",
+    "commitizen": "^4.1.2",
     "commitlint": "^8.3.5",
     "copy-webpack-plugin": "^4.5.1",
     "cross-env": "^5.1.6",
     "css-loader": "^0.28.11",
+    "cz-customizable": "^6.2.0",
     "del": "^3.0.0",
     "devtron": "^1.4.0",
     "electron": "^2.0.4",
@@ -123,7 +127,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-customizable"
     }
   }
 }
