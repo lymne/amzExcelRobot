@@ -21,14 +21,15 @@
     </div>
     <div class="label" v-if="currentAccount">
       <el-divider>站点</el-divider>
-      <el-checkbox-group v-model="checkedSites" @change="handleCheckedSitesChange">
-        <el-checkbox v-for="site in sites" :label="site" :key="site">{{site}}</el-checkbox>
-      </el-checkbox-group>
-      <el-checkbox
+       <el-checkbox style="margin:10px;"
         :indeterminate="isIndeterminate"
         v-model="checkAll"
         @change="handleCheckAllChange"
       >全选</el-checkbox>
+      <el-checkbox-group v-model="checkedSites" @change="handleCheckedSitesChange">
+        <el-checkbox v-for="site in sites" :label="site" :key="site">{{site}}</el-checkbox>
+      </el-checkbox-group>
+
     </div>
     <el-divider>上传产品</el-divider>
 

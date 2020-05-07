@@ -1,0 +1,502 @@
+{
+	"st3": {
+		"requiredColumn": {
+			"us": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer",
+				"external_product_id_type", "standard_price",
+				"quantity", "main_image_url", "other_image_url1", "other_image_url2",
+				"other_image_url3",	"platinum_keywords1","platinum_keywords2","platinum_keywords3",	
+				"platinum_keywords4","platinum_keywords5"
+				"parent_child", "parent_sku",
+				"relationship_type", "variation_theme", "product_description", "part_number",
+				"bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5",
+				"generic_keywords", "color_name", "color_map", "size_name", "material_type",
+				 "merchant_shipping_group_name", "list_price", "condition_type", "fulfillment_latency"
+			],
+			"ca": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer",
+				"external_product_id_type", "standard_price",
+				"quantity", "main_image_url", "other_image_url1", "other_image_url2",
+				"other_image_url3",	"platinum_keywords1","platinum_keywords2","platinum_keywords3",	
+				"platinum_keywords4","platinum_keywords5"
+				"parent_child", "parent_sku",
+				"relationship_type", "variation_theme", "product_description", "part_number",
+				"bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5",
+				"generic_keywords", "color_name", "color_map", "size_name", "material_type", "merchant_shipping_group_name", "list_price", "condition_type", "fulfillment_latency"
+			],
+			"uk": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer",
+				"external_product_id_type", "standard_price",
+				"quantity", "main_image_url", "other_image_url1", "other_image_url2",
+				"other_image_url3",	"platinum_keywords1","platinum_keywords2","platinum_keywords3",	
+				"platinum_keywords4","platinum_keywords5"
+				"parent_child", "parent_sku",
+				"relationship_type", "variation_theme", "product_description", "part_number",
+				"bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5",
+				"generic_keywords", "color_name", "color_map", "size_name", "material_type", "merchant_shipping_group_name", "list_price", "condition_type", "fulfillment_latency"
+			],
+			"de": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer",
+				"external_product_id_type", "standard_price",
+				"quantity", "main_image_url", "other_image_url1", "other_image_url2",
+				"other_image_url3", "platinum_keywords1","platinum_keywords2","platinum_keywords3",	
+				"platinum_keywords4","platinum_keywords5" "parent_child", "parent_sku",
+				"relationship_type", "variation_theme", "product_description", "part_number",
+				"bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5",
+				"generic_keywords", "color_name", "color_map", "size_name", "material_type",  "merchant_shipping_group_name", "uvp_list_price", "condition_type", "fulfillment_latency"
+			],
+			"fr": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer",
+				"external_product_id_type", "standard_price",
+				"quantity", "main_image_url", "other_image_url1", "other_image_url2",
+				"other_image_url3",	"platinum_keywords1","platinum_keywords2","platinum_keywords3",	
+				"platinum_keywords4","platinum_keywords5"
+				"parent_child", "parent_sku",
+				"relationship_type", "variation_theme", "product_description", "part_number",
+				"bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5",
+				"generic_keywords", "color_name", "color_map", "size_name", "material_type", "merchant_shipping_group_name", "list_price", "condition_type", "fulfillment_latency"
+			],
+			"it": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer",
+				"external_product_id_type", "standard_price",
+				"quantity", "main_image_url", "other_image_url1", "other_image_url2",
+				"other_image_url3", "platinum_keywords1","platinum_keywords2","platinum_keywords3",	
+				"platinum_keywords4","platinum_keywords5" "parent_child", "parent_sku",
+				"relationship_type", "variation_theme", "product_description", "part_number",
+				"bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5",
+				"generic_keywords", "color_name", "color_map", "size_name", "material_type",  "merchant_shipping_group_name", "uvp_list_price", "condition_type", "fulfillment_latency"
+			],
+			"es": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer",
+				"external_product_id_type", "standard_price",
+				"quantity", "main_image_url", "other_image_url1", "other_image_url2",
+				"other_image_url3", "platinum_keywords1","platinum_keywords2","platinum_keywords3",	
+				"platinum_keywords4","platinum_keywords5" "parent_child", "parent_sku",
+				"relationship_type", "variation_theme", "product_description", "part_number",
+				"bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5",
+				"generic_keywords", "color_name", "color_map", "size_name", "material_type",  "merchant_shipping_group_name", "uvp_list_price", "condition_type", "fulfillment_latency"
+			],
+			"jp": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer",
+				"external_product_id_type", "standard_price",
+				"quantity", "main_image_url", "other_image_url1", "other_image_url2",
+				"other_image_url3",	"platinum_keywords1","platinum_keywords2","platinum_keywords3",	
+				"platinum_keywords4","platinum_keywords5"
+				"parent_child", "parent_sku",
+				"relationship_type", "variation_theme", "product_description", "part_number",
+				"bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5",
+				"generic_keywords", "color_name", "color_map", "size_name", "material_type", "merchant_shipping_group_name", "list_price", "condition_type", "fulfillment_latency"
+			]
+		},
+
+			"skuPrefix": {
+				"us": "MG-BD",
+				"ca": "MG-CA-BD",
+				"uk": "MG-UK-BD",
+				"de": "MG-DE-BD",
+				"fr": "MG-FR-BD",
+				"it": "MG-IT-BD",
+				"es": "MG-ES-BD",
+				"jp": "Tan1color-PR"
+			},
+			"parentSkuFormat": "{PARENT_NUM}-{MMDD}-{CHILD_NUM}",
+			"childSkuFormat": "{PARENT_NUM}-{MMDD}-{CHILD_NUM}",
+			"feed_product_type": {
+				"us": "home",
+				"ca": "home",
+				"uk": "home",
+				"de": "home",
+				"fr": "home",
+				"it": "home",
+				"es": "home",
+				"jp": "kitchen"
+			},
+			"skus": {
+				"s32": ["st3s32","st3s43","st3s64"],
+				"s23": ["st3s23","st3s34","st3s46"]
+			},
+			"brand_name": {
+				"us": "MorganNeon",
+				"ca": "MorganNeon",
+				"uk": "MorganNeon",
+				"de": "MorganNeon",
+				"fr": "MorganNeon",
+				"it": "MorganNeon",
+				"es": "MorganNeon",
+				"jp": "Tanranear"
+			},
+			"manufacturer": {
+				"us": "MorganNeon",
+				"ca": "MorganNeon",
+				"uk": "MorganNeon",
+				"de": "MorganNeon",
+				"fr": "MorganNeon",
+				"it": "MorganNeon",
+				"es": "MorganNeon",
+				"jp": "Tanranear"
+			},
+			"parent_name": {
+				"us": "{NAME_TEXT} {SIZE_TEXT} LED Neon Light Sign",
+				"ca": "{NAME_TEXT} {SIZE_TEXT} LED Neon Light Sign",
+				"uk": "{NAME_TEXT} {SIZE_TEXT} LED Neon Light Sign",
+				"de": "{NAME_TEXT} {SIZE_TEXT} LED Neon Light Sign",
+				"fr": "{NAME_TEXT} {SIZE_TEXT} LED Neon Light Sign",
+				"it": "{NAME_TEXT} {SIZE_TEXT} LED Neon Light Sign",
+				"es": "{NAME_TEXT} {SIZE_TEXT} LED Neon Light Sign",
+				"jp": "{NAME_TEXT}"
+			},
+			"variation_name": {
+				"us": "{NAME_TEXT} {SIZE_TEXT} LED Neon Light Sign {COLOR_TEXT}",
+				"ca": "{NAME_TEXT} {SIZE_TEXT} LED Neon Light Sign {COLOR_TEXT}",
+				"uk": "{NAME_TEXT} {SIZE_TEXT} LED Neon Light Sign {COLOR_TEXT}",
+				"de": "{NAME_TEXT} {SIZE_TEXT} LED Neon Light Sign {COLOR_TEXT}",
+				"fr": "{NAME_TEXT} {SIZE_TEXT} LED Neon Light Sign {COLOR_TEXT}",
+				"it": "{NAME_TEXT} {SIZE_TEXT} LED Neon Light Sign {COLOR_TEXT}",
+				"es": "{NAME_TEXT} {SIZE_TEXT} LED Neon Light Sign {COLOR_TEXT}",
+				"jp": "{NAME_TEXT} LED看板 ネオンサイン ライト 電飾 広告用標識 {SIZE_TEXT} {COLOR_TEXT}"
+			},
+			"variation_theme": {
+				"us": "SizeName-ColorName",
+				"ca": "SizeName-ColorName",
+				"uk": "SizeName-ColorName",
+				"de": "SizeName-ColorName",
+				"fr": "SizeName-ColorName",
+				"it": "SizeName-ColorName",
+				"es": "SizeName-ColorName",
+				"jp": "SizeName-ColorName"
+			},
+		"size_text": {
+				"us": {
+					"st3s32": "12\" x 8\"",
+					"st3s43": "16\" x 12\"",
+					"st3s64": "24\" x 16\"",
+					"st4s32": "12\" x 8\"",
+					"st4s43": "16\" x 12\"",
+					"st4s64": "24\" x 16\""
+				},
+				"ca": {
+					"st3s32": "12\" x 8\"",
+					"st3s43": "16\" x 12\"",
+					"st3s64": "24\" x 16\"",
+					"st4s32": "12\" x 8\"",
+					"st4s43": "16\" x 12\"",
+					"st4s64": "24\" x 16\""
+				},
+				"uk": {
+					"st3s32": "30cm x 20cm",
+					"st3s43": "40cm x 30cm",
+					"st3s64": "60cm x 40cm",
+					"st4s32": "30cm x 20cm",
+					"st4s43": "40cm x 30cm",
+					"st4s64": "60cm x 40cm"
+				},
+				"de": {
+				"st3s32": "30cm x 20cm",
+					"st3s43": "40cm x 30cm",
+					"st3s64": "60cm x 40cm",
+					"st4s32": "30cm x 20cm",
+					"st4s43": "40cm x 30cm",
+					"st4s64": "60cm x 40cm"
+				},
+				"fr": {
+				"st3s32": "30cm x 20cm",
+					"st3s43": "40cm x 30cm",
+					"st3s64": "60cm x 40cm",
+					"st4s32": "30cm x 20cm",
+					"st4s43": "40cm x 30cm",
+					"st4s64": "60cm x 40cm"
+				},
+				"it": {
+					"st3s32": "30cm x 20cm",
+					"st3s43": "40cm x 30cm",
+					"st3s64": "60cm x 40cm",
+					"st4s32": "30cm x 20cm",
+					"st4s43": "40cm x 30cm",
+					"st4s64": "60cm x 40cm"
+				},
+				"es": {
+					"st3s32": "30cm x 20cm",
+					"st3s43": "40cm x 30cm",
+					"st3s64": "60cm x 40cm",
+					"st4s32": "30cm x 20cm",
+					"st4s43": "40cm x 30cm",
+					"st4s64": "60cm x 40cm"
+				},
+				"jp": {
+				    "st3s32": "W30cm x H20cm",
+					"st3s43": "W40cm x H30cm",
+					"st3s64": "W60cm x H40cm",
+					"st4s32": "W30cm x H20cm",
+					"st4s43": "W40cm x H30cm",
+					"st4s64": "W60cm x H40cm"
+				}
+			},
+			"colors":['b','r','g','y','w','o','p','c'],
+			"color_name": {
+				"b": ['Blue','ブルー'],
+				"r": ['Red','レッド'],
+				"w": ['White','ホワイト'],
+				"g": ['Green','グリーン'],
+				"y": ['Yellow','イエロー'],
+				"o": ['Orange','オレンジ'],
+				"p": ['Purple','パープル'],
+				"c": ['Multicolor','マルチカラー']
+			},
+			"material_type": {
+				"us": "Plastic",
+				"ca": "Plastic",
+				"uk": "Plastic",
+				"de": "Plastic",
+				"fr": "Plastic",
+				"it": "Plastic",
+				"es": "Plastic",
+				"jp": ""
+			},
+			"standard_price": {
+				"us": {
+					"st3s32": 29.99,
+					"st3s43": 39.99,
+					"st3s64": 69.99,
+					"st4s32": 38.99,
+					"st4s43": 49.99,
+					"st4s64": 79.99
+
+				},
+				"ca": {
+					"st3s32": 42.99,
+					"st3s43": 55.99,
+					"st3s64": 99.99,
+					"st4s32": 54.99,
+					"st4s43": 70.99,
+					"st4s64": 113.99
+				},
+				"uk": {
+					"st3s32": 23.99,
+					"st3s43": 31.99,
+					"st3s64": 54.99,
+					"st4s32": 30.99,
+					"st4s43": 39.99,
+					"st4s64": 62.99
+				},
+				"de": {
+					"st3s32": 27.99,
+					"st3s43": 36.99,
+					"st3s64": 63.99,
+					"st4s32": 35.99,
+					"st4s43": 45.99,
+					"st4s64": 72.99
+				},
+				"fr": {
+				"st3s32": 27.99,
+					"st3s43": 36.99,
+					"st3s64": 63.99,
+					"st4s32": 35.99,
+					"st4s43": 45.99,
+					"st4s64": 72.99
+				},
+				"it": {
+					"st3s32": 27.99,
+					"st3s43": 36.99,
+					"st3s64": 63.99,
+					"st4s32": 35.99,
+					"st4s43": 45.99,
+					"st4s64": 72.99
+				},
+				"es": {
+					"st3s32": 27.99,
+					"st3s43": 36.99,
+					"st3s64": 63.99,
+					"st4s32": 35.99,
+					"st4s43": 45.99,
+					"st4s64": 72.99
+				},
+				"jp": {
+					"st3s32": 4899,
+					"st3s43": 5999,
+					"st3s64": 9299,
+					"st4s32": 5899,
+					"st4s43": 6999,
+					"st4s64": 10399
+				}
+			},
+			"quantity": {
+				"st3s32": 20,
+				"st3s43": 20,
+				"st3s64": 20,
+				"st4s32": 20,
+				"st4s43": 20,
+				"st4s64": 20
+			},
+			"merchant_shipping_group_name": {
+				"us": {
+					"st3s32": "shipping cost 12",
+					"st3s43": "shipping cost 12",
+					"st3s64": "shipping cost 20",
+					"st4s32": "shipping cost 12",
+					"st4s43": "shipping cost 12",
+					"st4s64": "shipping cost 20"
+				},
+				"ca": {
+					"st3s32": "shipping cost 16",
+					"st3s43": "shipping cost 16",
+					"st3s64": "shipping cost 27",
+					"st4s32": "shipping cost 16",
+					"st4s43": "shipping cost 16",
+					"st4s64": "shipping cost 27"
+				},
+				"uk": {
+					"st3s32": "shipping cost 10",
+					"st3s43": "shipping cost 10",
+					"st3s64": "shipping cost 18",
+					"st4s32": "shipping cost 10",
+					"st4s43": "shipping cost 10",
+					"st4s64": "shipping cost 18"
+				},
+				"de": {
+					"st3s32": "shipping cost 12",
+					"st3s43": "shipping cost 12",
+					"st3s64": "shipping cost 20",
+					"st4s32": "shipping cost 12",
+					"st4s43": "shipping cost 12",
+					"st4s64": "shipping cost 20"
+				},
+				"fr": {
+					"st3s32": "shipping cost 12",
+					"st3s43": "shipping cost 12",
+					"st3s64": "shipping cost 20",
+					"st4s32": "shipping cost 12",
+					"st4s43": "shipping cost 12",
+					"st4s64": "shipping cost 20"	
+				},
+				"it": {
+					"st3s32": "shipping cost 12",
+					"st3s43": "shipping cost 12",
+					"st3s64": "shipping cost 20",
+					"st4s32": "shipping cost 12",
+					"st4s43": "shipping cost 12",
+					"st4s64": "shipping cost 20"
+				},
+				"es": {
+					"st3s32": "shipping cost 12",
+					"st3s43": "shipping cost 12",
+					"st3s64": "shipping cost 20",
+					"st4s32": "shipping cost 12",
+					"st4s43": "shipping cost 12",
+					"st4s64": "shipping cost 20"
+				},
+				"jp": {
+				    "st3s32": "shipping cost 1200",
+					"st3s43": "shipping cost 1200",
+					"st3s64": "shipping cost 2400",
+					"st4s32": "shipping cost 1200",
+					"st4s43": "shipping cost 1200",
+					"st4s64": "shipping cost 2400"
+				}
+			},
+			"product_description": ["Our Colorful LED Neon Light Signs can be used to create a perfect atmosphere for your bar, room, man cave, den, shop, etc. Great gifts for men & women. Bright but consume only 3 watts. Plug in & light up, no installation required, easy to use, no maintenance at all.", "弊社のLED看板は伝統的なガス充填管のネオンサインと比べてはより手頃な価格（50〜70％安い！）で値段の割に実用性が高いです。ガラス管ネオンサインに比べて、ガスを補充する必要がないので、取り扱いもとても簡単です！（使用寿命が長い：50,000時間/ 5〜10年持続可能）。また、電気消費量がより節約（わずか3ワットで省エネルギー）、水銀なしで環境にやさしがいです。 "],
+			"imageDomain": "http://jpg.woowcloud.com",
+			"main_image_url": {
+				"b": "http://jpg.woowcloud.com/lightsign/{CHAR}/{SKU}b.JPG",
+				"r": "http://jpg.woowcloud.com/lightsign/{CHAR}/{SKU}r.JPG",
+				"w": "http://jpg.woowcloud.com/lightsign/{CHAR}/{SKU}g.JPG",
+				"g": "http://jpg.woowcloud.com/lightsign/{CHAR}/{SKU}y.JPG",
+				"y": "http://jpg.woowcloud.com/lightsign/white.JPG",
+				"o": "http://jpg.woowcloud.com/lightsign/orange.JPG",
+				"p": "http://jpg.woowcloud.com/lightsign/purple.JPG",
+				"c": "http://jpg.woowcloud.com/lightsign/multi.JPG"
+			},
+			"other_image_urls": {
+				"b": ["https://a2.imgsha.com/2020/03/19/{SKU}r.jpg","https://a2.imgsha.com/2020/03/19/{SKU}y.jpg","https://a2.imgsha.com/2020/03/19/{SKU}g.jpg"],
+				"r": ["https://a2.imgsha.com/2020/03/19/{SKU}r.jpg","https://a2.imgsha.com/2020/03/19/{SKU}y.jpg","https://a2.imgsha.com/2020/03/19/{SKU}g.jpg"],
+				"w": ["https://a2.imgsha.com/2020/03/19/{SKU}r.jpg","https://a2.imgsha.com/2020/03/19/{SKU}y.jpg","https://a2.imgsha.com/2020/03/19/{SKU}g.jpg"],
+				"g": ["https://a2.imgsha.com/2020/03/19/{SKU}r.jpg","https://a2.imgsha.com/2020/03/19/{SKU}y.jpg","https://a2.imgsha.com/2020/03/19/{SKU}g.jpg"],
+				"y": ["https://a2.imgsha.com/2020/03/19/{SKU}r.jpg","https://a2.imgsha.com/2020/03/19/{SKU}y.jpg","https://a2.imgsha.com/2020/03/19/{SKU}g.jpg"],
+				"o": ["https://a2.imgsha.com/2020/03/19/{SKU}r.jpg","https://a2.imgsha.com/2020/03/19/{SKU}y.jpg","https://a2.imgsha.com/2020/03/19/{SKU}g.jpg"],
+				"p": ["https://a2.imgsha.com/2020/03/19/{SKU}r.jpg","https://a2.imgsha.com/2020/03/19/{SKU}y.jpg","https://a2.imgsha.com/2020/03/19/{SKU}g.jpg"],
+				"c": ["http://jpg.woowcloud.com/lightsign/{CHAR}/{SKU}b.JPG","http://jpg.woowcloud.com/lightsign/{CHAR}/{SKU}r.JPG","http://jpg.woowcloud.com/lightsign/{CHAR}/{SKU}g.JPG","http://jpg.woowcloud.com/lightsign/{CHAR}/{SKU}y.JPG","http://jpg.woowcloud.com/lightsign/{CHAR}/{SKU}w.JPG"]
+			},
+			"bullet_points": {
+				"bullet_point1": ["Size: {overallsize_text}. LED light can last for 50,000 hours ", "こんな所に大活躍：広告用看板、飾り品、バー、クラブ及びゲーム場所等には最適です。"],
+				"bullet_point2": ["Voltage: 110v-220v, we will arrange plug to you according to your local standard", "こんな所に大活躍：広告用看板、飾り品、バー、クラブ及びゲーム場所等には最適です。"],
+				"bullet_point3": ["Cord: Black color with On/Off button", "取付が簡単：吊り鎖付き、自由に壁に吊り下げて飾ります。"],
+				"bullet_point4": ["How to use: Chain for hanging up, plug in and light up, easy to use, no maintenance, 3 Watts only, warm working temperature, save electricity and safe to touch", "サイズ：{overallsize_text}　LED消費電力：3W 使用寿命：50,000時間以上（5～１0年間）"],
+				"bullet_point5": ["Feature: Use as atmosphere lights for any indoor places", "セット内容：LED看板本体、吊り鎖、電源コード（スイッチ付き・長さ1.6ｍ）"]
+			},
+			"generic_keywords": ["led neon sign light for man cave bar bedroom", "ネオンサイン ネオン看板"],
+			"platinum_keywords1": ["neon light sign","ネオンサイン"],
+			"platinum_keywords2": ["bar sign","ネオン看板"]
+			"platinum_keywords3": ["neon sign for bar","LED サイン"]
+			"platinum_keywords4": ["neon sign for bedroom","LED 看板"]
+			"platinum_keywords5": ["",""]
+			"fulfillment_latency": {
+				"us": 3,
+				"ca": 8,
+				"uk": 5,
+				"de": 5,
+				"fr": 5,
+				"it": 5,
+				"es": 5,
+				"jp": 10
+			},
+			"list_price": {
+					"us": {
+					"st3s32": 39.99,
+					"st3s43": 49.99,
+					"st3s64": 89.99,
+					"st4s32": 48.99,
+					"st4s43": 59.99,
+					"st4s64": 99.99
+
+				},
+				"ca": {
+					"st3s32": 52.99,
+					"st3s43": 65.99,
+					"st3s64": 119.99,
+					"st4s32": 64.99,
+					"st4s43": 90.99,
+					"st4s64": 133.99
+				},
+				"uk": {
+					"st3s32": 33.99,
+					"st3s43": 41.99,
+					"st3s64": 74.99,
+					"st4s32": 40.99,
+					"st4s43": 49.99,
+					"st4s64": 82.99
+				},
+				"de": {
+					"st3s32": 37.99,
+					"st3s43": 46.99,
+					"st3s64": 83.99,
+					"st4s32": 45.99,
+					"st4s43": 55.99,
+					"st4s64": 92.99
+				},
+				"fr": {
+				"st3s32": 37.99,
+					"st3s43": 46.99,
+					"st3s64": 83.99,
+					"st4s32": 45.99,
+					"st4s43": 55.99,
+					"st4s64": 92.99
+				},
+				"it": {
+					"st3s32": 37.99,
+					"st3s43": 46.99,
+					"st3s64": 83.99,
+					"st4s32": 45.99,
+					"st4s43": 55.99,
+					"st4s64": 92.99
+				},
+				"es": {
+					"st3s32": 37.99,
+					"st3s43": 46.99,
+					"st3s64": 83.99,
+					"st4s32": 45.99,
+					"st4s43": 55.99,
+					"st4s64": 92.99
+				},
+				"jp": {
+					"st3s32": 4899,
+					"st3s43": 5999,
+					"st3s64": 9299,
+					"st4s32": 5899,
+					"st4s43": 6999,
+					"st4s64": 10399
+				}
+			}
+		}
+	
+}
