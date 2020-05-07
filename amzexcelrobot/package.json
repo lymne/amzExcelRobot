@@ -69,6 +69,7 @@
     "vuex-electron": "^1.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "ajv": "^6.5.0",
     "babel-core": "^6.26.3",
