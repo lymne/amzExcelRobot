@@ -54,11 +54,7 @@
     }
   },
 
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
+ 
   "dependencies": {
     "axios": "^0.19.2",
     "dayjs": "^1.8.15",
@@ -128,6 +124,11 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-customizable"
+    },
+    "husky": {
+      "hooks": {
+        "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      }
     }
   }
 }
