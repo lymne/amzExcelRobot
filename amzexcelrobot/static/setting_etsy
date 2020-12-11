@@ -1,0 +1,8 @@
+{
+   "account":["etsy0001"],
+   "template":{  
+       "etsy0001":{
+          "type":["etsy-st6"]
+       }
+   }
+}

@@ -1,0 +1,65 @@
+{
+	"etsy-st6": {
+		"requiredColumn": ["sku","title","description","quantity","price","is_supply","who_made","is_customizable","when_made","tags","shipping_template_id","shop_section_id","image","size","color","state","materials","taxonomy_id"],
+		"skus": {
+			"s32": ["st6s32", "st6s43", "st6s64"],
+			"s23": ["st6s23", "st6s34", "st6s46"]
+		},
+		"parent_name": "{NAME_TEXT} Two Color LED Neon Sign - Man Cave - Bar Club - Wall Sign - House Warming - Birthday Gifts",
+		"size_text": {
+            "st6s32": "W12\" x H8\" (W30cm x H20cm)",
+            "st6s43": "W16\" x H12\" (W40cm x H30cm)",
+            "st6s64": "W24\" x H16\" (W60cm x H40cm)",
+            "st6s23": "W8\" x H16\" (W20cm x H30cm)",
+            "st6s34": "W12\" x H16\" (W30cm x H40cm)",
+            "st6s46": "W16\" x H24\" (W40cm x H60cm)"
+		},
+		"colors": ["br", "rb", "wr", "wb", "wg", "wy", "wo", "wp", "gb", "gr", "gy", "ry", "by"],
+		"color_name": {
+			"b": "Blue",
+			"r": "Red",
+			"w": "White",
+			"g": "Green",
+			"y": "Yellow",
+			"o": "Orange",
+			"p": "Purple"
+		},
+		"materials": "Acrylic, Led lights",
+		"standard_price": {	
+          	"st6s32": 99.99,
+            "st6s43": 119.99,
+            "st6s64": 198.99,
+            "st6s23": 99.99,
+            "st6s34": 119.99,
+            "st6s46": 198.99
+		},
+		"quantity": {
+			"st6s32": 50,
+			"st6s43": 50,
+			"st6s64": 50,
+			"st6s23": 50,
+			"st6s34": 50,
+			"st6s46": 50
+		},
+		"main_image_url": "http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-{COLOR}1.JPG",
+		"other_image_urls": {
+			"br": ["http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-br.JPG", "http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-br-s.JPG", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wb.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wp.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-gy.jpg"],
+			"rb": ["http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-rb.JPG", "http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-rb-s.JPG", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wb.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wp.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-gy.jpg"],
+			"wr": ["http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-wr.JPG", "http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-wr-s.JPG", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wb.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wp.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-gy.jpg"],
+			"wb": ["http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-wb.JPG", "http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-wb-s.JPG", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wb.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wp.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-gy.jpg"],
+			"wg": ["http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-wg.JPG", "http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-wg-s.JPG", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wb.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wp.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-gy.jpg"],
+			"wy": ["http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-wy.JPG", "http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-wy-s.JPG", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wb.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wp.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-gy.jpg"],
+			"wo": ["http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-wo.JPG", "http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-wo-s.JPG", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wb.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wp.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-gy.jpg"],
+			"wp": ["http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-wp.JPG", "http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-wp-s.JPG", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wb.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wp.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-gy.jpg"],
+			"gb": ["http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-gb.JPG", "http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-gb-s.JPG", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wb.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wp.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-gy.jpg"],
+			"gr": ["http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-gr.JPG", "http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-gr-s.JPG", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wb.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wp.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-gy.jpg"],
+			"gy": ["http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-gy.JPG", "http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-gy-s.JPG", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wb.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wp.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-gy.jpg"],
+			"ry": ["http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-ry.JPG", "http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-ry-s.JPG", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wb.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wp.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-gy.jpg"],
+			"by": ["http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-by.JPG", "http://jpg.woowcloud.com/st6/{CHAR}/st6-{SKU}-by-s.JPG", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wb.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-wp.jpg", "https://s2.imgsha.com/2020/03/19/GMH-{SKU}-gy.jpg"]
+		},
+		"shipping_template_id":"117002792588",
+		"shop_section_id":"",
+		"taxonomy_id":"6121",
+		"tags": ["LED sign","neon sign","Beer sign","bar sign","wall decor","led light","neon light","sign light","advertising sign","Anniversary gift"]
+	}
+}

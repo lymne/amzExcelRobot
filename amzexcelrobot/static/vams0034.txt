@@ -1,0 +1,340 @@
+{
+	"ws": {
+		"requiredColumn": {
+			"us": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer", "external_product_id_type", "standard_price", "quantity", "main_image_url", "other_image_url1", "platinum_keywords1", "platinum_keywords2", "platinum_keywords3", "platinum_keywords4", "platinum_keywords5", "parent_child", "parent_sku", "relationship_type", "variation_theme", "product_description", "part_number", "bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5", "generic_keywords", "color_name", "color_map", "material_type", "merchant_shipping_group_name", "list_price", "condition_type", "fulfillment_latency", "item_package_quantity", "item_display_length", "item_display_length_unit_of_measure", "item_display_width", "item_display_width_unit_of_measure", "item_display_height", "item_display_height_unit_of_measure", "item_display_weight", "item_display_weight_unit_of_measure", "item_dimensions_unit_of_measure"],
+			"ca": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer", "external_product_id_type", "standard_price", "quantity", "main_image_url", "other_image_url1", "platinum_keywords1", "platinum_keywords2", "platinum_keywords3", "platinum_keywords4", "platinum_keywords5", "parent_child", "parent_sku", "relationship_type", "variation_theme", "product_description", "part_number", "bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5", "generic_keywords", "color_name", "color_map", "material_type", "merchant_shipping_group_name", "list_price", "condition_type", "fulfillment_latency", "item_package_quantity", "item_display_length", "item_display_length_unit_of_measure", "item_display_width", "item_display_width_unit_of_measure", "item_display_height", "item_display_height_unit_of_measure", "item_display_weight", "item_display_weight_unit_of_measure", "item_dimensions_unit_of_measure"],
+			"uk": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer", "external_product_id_type", "standard_price", "recommended_browse_nodes", "quantity", "main_image_url", "other_image_url1", "platinum_keywords1", "platinum_keywords2", "platinum_keywords3", "platinum_keywords4", "platinum_keywords5", "parent_child", "parent_sku", "relationship_type", "variation_theme", "product_description", "part_number", "bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5", "generic_keywords", "color_name", "color_map", "material_type", "merchant_shipping_group_name", "uvp_list_price", "condition_type", "fulfillment_latency", "item_package_quantity", "item_display_length", "item_display_length_unit_of_measure", "item_display_width", "item_display_width_unit_of_measure", "item_display_height", "item_display_height_unit_of_measure", "item_display_weight", "item_display_weight_unit_of_measure", "item_dimensions_unit_of_measure"],
+			"de": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer", "external_product_id_type", "standard_price", "recommended_browse_nodes", "quantity", "main_image_url", "other_image_url1", "platinum_keywords1", "platinum_keywords2", "platinum_keywords3", "platinum_keywords4", "platinum_keywords5", "parent_child", "parent_sku", "relationship_type", "variation_theme", "product_description", "part_number", "bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5", "generic_keywords", "color_name", "color_map", "material_type", "merchant_shipping_group_name", "uvp_list_price", "condition_type", "fulfillment_latency", "item_package_quantity", "item_display_length", "item_display_length_unit_of_measure", "item_display_width", "item_display_width_unit_of_measure", "item_display_height", "item_display_height_unit_of_measure", "item_display_weight", "item_display_weight_unit_of_measure", "item_dimensions_unit_of_measure"],
+			"fr": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer", "external_product_id_type", "standard_price", "recommended_browse_nodes", "quantity", "main_image_url", "other_image_url1", "platinum_keywords1", "platinum_keywords2", "platinum_keywords3", "platinum_keywords4", "platinum_keywords5", "parent_child", "parent_sku", "relationship_type", "variation_theme", "product_description", "part_number", "bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5", "generic_keywords", "color_name", "color_map", "material_type", "merchant_shipping_group_name", "uvp_list_price", "condition_type", "fulfillment_latency", "item_package_quantity", "item_display_length", "item_display_length_unit_of_measure", "item_display_width", "item_display_width_unit_of_measure", "item_display_height", "item_display_height_unit_of_measure", "item_display_weight", "item_display_weight_unit_of_measure", "item_dimensions_unit_of_measure"],
+			"it": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer", "external_product_id_type", "standard_price", "recommended_browse_nodes", "quantity", "main_image_url", "other_image_url1", "platinum_keywords1", "platinum_keywords2", "platinum_keywords3", "platinum_keywords4", "platinum_keywords5", "parent_child", "parent_sku", "relationship_type", "variation_theme", "product_description", "part_number", "bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5", "generic_keywords", "color_name", "color_map", "material_type", "merchant_shipping_group_name", "uvp_list_price", "condition_type", "fulfillment_latency", "item_package_quantity", "item_display_length", "item_display_length_unit_of_measure", "item_display_width", "item_display_width_unit_of_measure", "item_display_height", "item_display_height_unit_of_measure", "item_display_weight", "item_display_weight_unit_of_measure", "item_dimensions_unit_of_measure"],
+			"es": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer", "external_product_id_type", "standard_price", "recommended_browse_nodes", "quantity", "main_image_url", "other_image_url1", "platinum_keywords1", "platinum_keywords2", "platinum_keywords3", "platinum_keywords4", "platinum_keywords5", "parent_child", "parent_sku", "relationship_type", "variation_theme", "product_description", "part_number", "bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5", "generic_keywords", "color_name", "color_map", "material_type", "merchant_shipping_group_name", "uvp_list_price", "condition_type", "fulfillment_latency", "item_package_quantity", "item_display_length", "item_display_length_unit_of_measure", "item_display_width", "item_display_width_unit_of_measure", "item_display_height", "item_display_height_unit_of_measure", "item_display_weight", "item_display_weight_unit_of_measure", "item_dimensions_unit_of_measure"],
+			"jp": ["feed_product_type", "item_sku", "brand_name", "item_name", "manufacturer", "external_product_id_type", "standard_price", "recommended_browse_nodes", "quantity", "main_image_url", "other_image_url1", "platinum_keywords1", "platinum_keywords2", "platinum_keywords3", "platinum_keywords4", "platinum_keywords5", "parent_child", "parent_sku", "relationship_type", "variation_theme", "product_description", "part_number", "bullet_point1", "bullet_point2", "bullet_point3", "bullet_point4", "bullet_point5", "generic_keywords", "color_name", "color_map", "material_type", "merchant_shipping_group_name", "list_price","condition_type", "fulfillment_latency", "item_package_quantity", "item_display_length", "item_display_length_unit_of_measure", "item_display_width", "item_display_width_unit_of_measure", "item_display_height", "item_display_height_unit_of_measure", "item_display_weight", "item_display_weight_unit_of_measure"]
+		},
+		"skuPrefix": {
+			"us": "HLY-CL",
+			"ca": "HLY-CA-CL",
+			"uk": "HLY-UK-CL",
+			"de": "HLY-DE-CL",
+			"fr": "HLY-FR-CL",
+			"it": "HLY-IT-CL",
+			"es": "HLY-ES-CL",
+			"jp": "HLY-JP-CL"
+		},
+		"recommended_browse_nodes": {
+			"us": "",
+			"ca": "",
+			"de": "4206140031",
+			"fr": "4206140031",
+			"it": "4206118031",
+			"es": "4206083031",
+			"uk": "4206145031",
+			"jp": "2134021051"
+		},
+
+		"parentSkuFormat": "{PARENT_NUM}-{MMDD}-{CHILD_NUM}",
+		"childSkuFormat": "{PARENT_NUM}-{MMDD}-{CHILD_NUM}",
+		"feed_product_type": {
+			"us": "home",
+			"ca": "home",
+			"uk": "home",
+			"de": "home",
+			"fr": "home",
+			"it": "home",
+			"es": "home",
+			"jp": "home"
+		},
+		"skus": {
+			"ws": ["tm"]
+		},
+		"brand_name": {
+			"us": "MorganNeon",
+			"ca": "MorganNeon",
+			"uk": "MorganNeon",
+			"de": "MorganNeon",
+			"fr": "MorganNeon",
+			"it": "MorganNeon",
+			"es": "MorganNeon",
+			"jp": "Tanranear"
+		},
+		"manufacturer": {
+			"us": "MorganNeon",
+			"ca": "MorganNeon",
+			"uk": "MorganNeon",
+			"de": "MorganNeon",
+			"fr": "MorganNeon",
+			"it": "MorganNeon",
+			"es": "MorganNeon",
+			"jp": "Tanranear"
+		},
+		"parent_name": {
+			"us": "{NAME_TEXT} LED Sensor Room Night Light",
+			"ca": "{NAME_TEXT} LED Sensor Room Night Light",
+			"uk": "{NAME_TEXT} LED Sensor Room Night Light",
+			"de": "{NAME_TEXT} LED Sensor Room Night Light",
+			"fr": "{NAME_TEXT} LED Sensor Room Night Light",
+			"it": "{NAME_TEXT} LED Sensor Room Night Light",
+			"es": "{NAME_TEXT} LED Sensor Room Night Light",
+			"jp": "{NAME_TEXT} LED ナイトライト 自動センサー　飾り"
+		},
+		"variation_name": {
+			"us": "{NAME_TEXT} LED Sensor Room Night Light {SIZE_TEXT} {COLOR_TEXT}",
+			"ca": "{NAME_TEXT} LED Sensor Room Night Light {SIZE_TEXT} {COLOR_TEXT}",
+			"uk": "{NAME_TEXT} LED Sensor Room Night Light {SIZE_TEXT} {COLOR_TEXT}",
+			"de": "{NAME_TEXT} LED Sensor Room Night Light {SIZE_TEXT} {COLOR_TEXT}",
+			"fr": "{NAME_TEXT} LED Sensor Room Night Light {SIZE_TEXT} {COLOR_TEXT}",
+			"it": "{NAME_TEXT} LED Sensor Room Night Light {SIZE_TEXT} {COLOR_TEXT}",
+			"es": "{NAME_TEXT} LED Sensor Room Night Light {SIZE_TEXT} {COLOR_TEXT}",
+			"jp": "{NAME_TEXT} LED ナイトライト 自動センサー　飾り {SIZE_TEXT} {COLOR_TEXT}"
+		},
+		"variation_theme": {
+			"us": "ColorName",
+			"ca": "ColorName",
+			"uk": "ColorName",
+			"de": "ColorName",
+			"fr": "ColorName",
+			"it": "ColorName",
+			"es": "ColorName",
+			"jp": "ColorName"
+		},
+		"size_text": {
+			"us": {
+				"tm": "4\" x 4\""
+			},
+			"ca": {
+				"tm": "4\" x 4\""
+			},
+			"uk": {
+				"tm": "10cm x 10cm"
+			},
+			"de": {
+				"tm": "10cm x 10cm"
+			},
+			"fr": {
+				"tm": "10cm x 10cm"
+			},
+			"it": {
+				"tm": "10cm x 10cm"
+			},
+			"es": {
+				"tm": "10cm x 10cm"
+			},
+			"jp": {
+				"tm": "10cm x 10cm"
+			}
+		},
+		"colors": ["b", "r", "g", "w"],
+		"color_name": {
+			"b": ["Blue", "ブルー"],
+			"r": ["Red", "レッド"],
+			"w": ["White", "ホワイト"],
+			"g": ["Green", "グリーン"]
+		},
+		"material_type": {
+			"us": "Acrylic",
+			"ca": "Acrylic",
+			"uk": "Acrylic",
+			"de": "Acrylic",
+			"fr": "Acrylic",
+			"it": "Acrylic",
+			"es": "Acrylic",
+			"jp": "アクリル"
+		},
+		"standard_price": {
+			"us": {
+				"tm": 24.99
+			},
+			"ca": {
+				"tm": 34.99
+			},
+			"uk": {
+				"tm": 21.99
+			},
+			"de": {
+				"tm": 22.99
+			},
+			"fr": {
+				"tm": 22.99
+			},
+			"it": {
+				"tm": 22.99
+			},
+			"es": {
+				"tm": 22.99
+			},
+			"jp": {
+				"tm": 2699
+			}
+		},
+		"quantity": {
+			"tm": 100
+		},
+		"merchant_shipping_group_name": {
+			"us": {
+				"tm": " free ship "
+			},
+			"ca": {
+				"tm": "free ship "
+			},
+			"uk": {
+				"tm": "free ship "
+			},
+			"de": {
+				"tm": "free ship "
+			},
+			"fr": {
+				"tm": "free ship "
+			},
+			"it": {
+				"tm": "free ship "
+			},
+			"es": {
+				"tm": "free ship "
+			},
+			"jp": {
+				"tm": "free ship "
+			}
+		},
+		"product_description": [
+			"You are looking at an intelligent sensor LED night light fit for using in man cave, garage, home bar, den, game room, bedroom, etc. The intelligent sensor led light lights up automatically in darkness and powers off when the room is bright enough . LED light lasts for 50,000+ hours and the night light can be used for years without maintenance.",
+			"独特のデザイン、小型で洗練された自動センサー付きのナイトライトです。自用も業務用も最適です。"
+		],
+		"imageDomain": "http://jpg.woowcloud.com",
+		"main_image_url": "http://jpg.woowcloud.com/ws/{SKU}-{COLOR}.JPG",
+		"other_image_urls": {
+			"b": ["http://jpg.woowcloud.com/ws/{SKU}-w.JPG"],
+			"r": ["http://jpg.woowcloud.com/ws/{SKU}-w.JPG"],
+			"g": ["http://jpg.woowcloud.com/ws/{SKU}-w.JPG"],
+			"w": ["http://jpg.woowcloud.com/ws/{SKU}-w.JPG"]
+		},
+		"bullet_points": {
+			"bullet_point1": ["Size is about 4 x 4 inch (10 x 10 cm) in irregular shape", "サイズ：不規則な形で約10cm x 10cmです。"],
+			"bullet_point2": ["Come with a LED motion sensor, the intelligent sensor light powers on automatically in darkness and turns off in the bright environment", "自動センサー付き：ナイトライトには敏感な光センサーを内蔵し、夜間センサーで自動点灯になります。朝と夜に家の周りで電気をつけたり消したりする心配はありません。"],
+			"bullet_point3": ["Come with an US plug to US & CA, AU plug to AU, EU plug to other countries", "安全性：ナイトライトはカラフルの輝きを放ち、ランプからの熱はなく、触っても涼しく、成人と子供に全て安全です。"],
+			"bullet_point4": ["Great gift for displaying in man cave, garage, home bar, den, game room, kitchen, bedroom and anywhere you like", "独特のデザイン：小型で洗練されたナイトライトで、子供、家族、恋人、友達、上司、同僚へすばらしいプレゼントです。"],
+			"bullet_point5": ["garage wine house-warming men women kid game-room illusion lamp illuminated engraved craved edge-lit vintage novelty 3D bedroom-decoration wall-décor kid pub cabin man-cave she-shed anniversary-gift den", "多くの場所に適用：部屋、オフィス、バー、クラブ及びゲーム場所の飾り物としても良いです。お客様の目を引くことができます。　"]
+		},
+		"generic_keywords": ["custom neon sign for bar bedroom", "LED　センサー　ナイトライト　夜間　部屋　バー　飾り"],
+		"platinum_keywords1": ["custom sign", "LED　ナイトライト"],
+		"platinum_keywords2": ["custom neon", "ネオンサイン  ネオン看板"],
+		"platinum_keywords3": ["neon sign for bar", "LED サイン"],
+		"platinum_keywords4": ["neon sign for bedroom", "LED 看板"],
+		"platinum_keywords5": ["", ""],
+		"fulfillment_latency": {
+			"us": 5,
+			"ca": 5,
+			"uk": 5,
+			"de": 5,
+			"fr": 5,
+			"it": 5,
+			"es": 5,
+			"jp": 5
+		},
+		"list_price": {
+			"us": {
+				"tm": 40
+			},
+			"ca": {
+				"tm": 50
+			},
+			"uk": {
+				"tm": 40
+			},
+			"de": {
+				"tm": 40
+			},
+			"fr": {
+				"tm": 40
+			},
+			"it": {
+				"tm": 40
+			},
+			"es": {
+				"tm": 40
+			},
+			"jp": {
+				"tm": 5000
+			}
+		},
+		"item_display_length": {
+			"us": 3.8,
+			"ca": 3.8,
+			"uk": 10,
+			"de": 10,
+			"fr": 10,
+			"it": 10,
+			"es": 10,
+			"jp": 10
+		},
+
+		"item_display_width": {
+			"us": 1,
+			"ca": 1,
+			"uk": 2.5,
+			"de": 2.5,
+			"fr": 2.5,
+			"it": 2.5,
+			"es": 2.5,
+			"jp": 2.5
+		},
+		"item_display_height": {
+			"us": 3.8,
+			"ca": 3.8,
+			"uk": 10,
+			"de": 10,
+			"fr": 10,
+			"it": 10,
+			"es": 10,
+			"jp": 10
+		},
+		"item_display_weight": {
+			"us": 0.18,
+			"ca": 0.18,
+			"uk": 82,
+			"de": 82,
+			"fr": 82,
+			"it": 82,
+			"es": 82,
+			"jp": 82
+		},
+		"item_display_length_unit_of_measure": {
+			"us": "IN",
+			"ca": "IN",
+			"uk": "CM",
+			"de": "CM",
+			"fr": "CM",
+			"it": "CM",
+			"es": "CM",
+			"jp": "CM"
+		},
+		"item_display_width_unit_of_measure": {
+			"us": "IN",
+			"ca": "IN",
+			"uk": "CM",
+			"de": "CM",
+			"fr": "CM",
+			"it": "CM",
+			"es": "CM",
+			"jp": "CM"
+		},
+		"item_display_height_unit_of_measure": {
+			"us": "IN",
+			"ca": "IN",
+			"uk": "CM",
+			"de": "CM",
+			"fr": "CM",
+			"it": "CM",
+			"es": "CM",
+			"jp": "CM"
+		},
+		"item_display_weight_unit_of_measure": {
+			"us": "LB",
+			"ca": "LB",
+			"uk": "G",
+			"de": "G",
+			"fr": "G",
+			"it": "G",
+			"es": "G",
+			"jp": "G"
+		}
+	}
+}

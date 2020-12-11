@@ -1,13 +1,21 @@
 {
-   "account":["vams0028","vams0021","vams0030","vams0031","vams0033","独立站"],
+   "account":["vams0028","vams0021","vams0030","vams0031","vams0033","vams0034","独立站"],
    "template":{
        "独立站":{
           "site":["shopify"],
           "type":["st6"]
        },
+       "etsy0001":{
+          "site":["etsy"],
+          "type":["st6"]
+       },
        "vams0021":{
             "site":["de","fr","it","es","uk","jp","us","ca"],
             "type":["st3"]
+       },
+       "vams0028":{
+            "site":["de","fr","it","es","uk","jp","us","ca"],
+            "type":["wpr"]
        },
        "vams0030":{
             "site":["de","fr","it","es","uk","jp","us","ca"],
@@ -21,9 +29,10 @@
             "site":["de","fr","it","es","uk","jp","us","ca"],
             "type":["st6"]
        },
-       "vams0028":{
+        "vams0034":{
             "site":["de","fr","it","es","uk","jp","us","ca"],
-            "type":["wpr"]
+            "type":["ws"]
        }
+ 
    }
 }
